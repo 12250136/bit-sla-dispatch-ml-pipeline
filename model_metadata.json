@@ -1,0 +1,98 @@
+{
+    "project_title": "Ticket Dispatching Risk Model - Prediksi Kepatuhan SLA Tiket Helpdesk TI",
+    "organization": "PT Bringin Inti Teknologi (BIT) - Divisi IT Operational (DIIO SME)",
+    "academic_course": "Pembelajaran Mesin (S1 - 3 SKS) | Kelas Gabungan KG.043.10.A (12.8A.12) | Semester Gasal 2026/2027",
+    "lecturer": "Dr. Irwansyah Saputra, M.Kom. (NIP: 201909149)",
+    "submission_date": "2026-11-05",
+    "repository_url": "https://github.com/kelompok04-unm/bit-sla-dispatch-ml-pipeline",
+    "colab_notebook_url": "https://colab.research.google.com/drive/1Kelompok04_BIT_SLA_Optuna_OOF_T06",
+    "group_info": {
+        "group_name": "Kelompok 04",
+        "class_code": "12.8A.12",
+        "members": [
+            {
+                "nim": "12250166",
+                "name": "Cristina Putri",
+                "role": "Ketua Tim / Koordinator Tim & Pipeline Modeling / Threshold Tuning"
+            },
+            {
+                "nim": "12250141",
+                "name": "Radik Dwiyoga",
+                "role": "Eksperimen Hyperparameter Optuna & Cross Validation"
+            },
+            {
+                "nim": "12250136",
+                "name": "Yohana Basuki",
+                "role": "Penyusunan Evaluasi Confusion Matrix, Analisis Risiko Bisnis, Bab I-III Proposal UTS & Dokumentasi Repositori"
+            }
+        ]
+    },
+    "optuna_optimization_summary": {
+        "n_trials": 30,
+        "cv_scheme": "5-Fold StratifiedKFold (shuffle=True, random_state=42)",
+        "objective_metric": "f1_macro",
+        "best_trial_number": 17,
+        "best_cv_f1_macro": 0.8798,
+        "best_cv_std": 0.0425,
+        "best_hyperparameters": {
+            "n_estimators": 290,
+            "max_depth": 13,
+            "min_samples_split": 6,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "class_weight": "balanced_subsample"
+        }
+    },
+    "oof_threshold_calibration_train": {
+        "n_train": 545,
+        "oof_roc_auc": 0.9623,
+        "oof_pr_auc_ap": 0.8318,
+        "oof_log_loss": 0.2179,
+        "default_threshold": 0.5,
+        "optimal_operational_threshold": 0.35,
+        "uncertainty_band": [
+            0.35,
+            0.55
+        ],
+        "selection_rationale": "Dipilih dari prediksi Out-Of-Fold (OOF) pada X_train untuk memaksimalkan F2-Score (0.8436) dan Recall (89.72% di OOF, 100.00% di Test) guna menghindari penalti finansial kontrak SLA klien perbankan."
+    },
+    "test_set_evaluation": {
+        "n_test": 137,
+        "support_class_0_sla_met": 110,
+        "support_class_1_sla_breached": 27,
+        "roc_auc": 0.9721,
+        "pr_auc_average_precision": 0.8917,
+        "log_loss": 0.2024,
+        "metrics_at_default_threshold_050": {
+            "tn": 101,
+            "fp": 9,
+            "fn": 2,
+            "tp": 25,
+            "accuracy": 0.9197,
+            "precision_class_0": 0.9806,
+            "recall_class_0": 0.9182,
+            "f1_class_0": 0.9484,
+            "precision_class_1": 0.7353,
+            "recall_class_1": 0.9259,
+            "f1_class_1": 0.8197,
+            "f1_macro": 0.884,
+            "f1_weighted": 0.923
+        },
+        "metrics_at_optimal_threshold_035": {
+            "tn": 97,
+            "fp": 13,
+            "fn": 0,
+            "tp": 27,
+            "accuracy": 0.9051,
+            "precision_class_0": 1.0,
+            "recall_class_0": 0.8818,
+            "f1_class_0": 0.9372,
+            "precision_class_1": 0.675,
+            "recall_class_1": 1.0,
+            "f1_class_1": 0.806,
+            "f2_class_1": 0.9122,
+            "f1_macro": 0.8716,
+            "f1_weighted": 0.9113
+        }
+    }
+}

@@ -1,0 +1,768 @@
+Ticket_ID,Project Owner,Service_Category,Assigned_PIC_Code,Task_Complexity_Tier,Submit_Day_of_Week,Is_Weekend_or_Peak,Daily_Ticket_Load,Engineer_Queue_Load,Desc_Char_Length,Detail_Char_Length,Is_Category_Missing,TFIDF_Urgency_Score,Combined_Text,Target_SLA_Breach
+TICKET_0001,BRI,ICD,,1,,0,,,64,52.0,0,0.184,ganti hierarchy path asset 9 c-band jadi antena 9 c-band\grcs 9m delete & re-upload asset  dengan hierarchy path baru,0
+TICKET_0002,BRI,ICD,,2,,0,,,37,41.0,0,0.272,ganti url britam dari http jadi https ganti certificate menggunakan self signed,0
+TICKET_0003,BRI,ICD,,1,,0,,,19,27.0,0,0.112,melengkapi asset vm delete & re-upload asset vm,0
+TICKET_0004,BRI,ICD,,1,,0,,,55,29.0,0,0.118,"melengkapi specification asset vm(ip address, vm host)  upload asset vm specification",0
+TICKET_0005,BRI,ICD,,1,,0,,,15,40.0,0,0.149,update data gcs upload asset gcs(header & specification),0
+TICKET_0006,BRI,ICD,,2,,0,,,55,28.0,0,0.235,routes asset gcs untuk keperluan preventive maintenance buat routes asset gcs di icd,0
+TICKET_0007,BRI,ICD,,3,,0,,,44,95.0,0,0.768,bugs mendix error saat proses wo(work order) checking bugs dengan mencoba certificate di mendix agar tidak error saat auto redirect ke https,1
+TICKET_0008,,Unclassified,ENG_01,3,,0,,479.0,25,,1,0.466,support migrasi db vulcan ,1
+TICKET_0009,,Unclassified,,3,,0,,,40,,1,0.466,migrasi temp to permanetn (workload gti) ,1
+TICKET_0010,,Unclassified,,2,,0,,,22,,1,0.272,power on leaf cloudera ,0
+TICKET_0011,Internal,Unclassified,ENG_02,3,,0,,8.0,19,,1,0.466,migrasi isat to cbn ,1
+TICKET_0012,Internal,Network,ENG_02,2,,0,,8.0,30,,0,0.346,grafana untuk network internal ,0
+TICKET_0013,BRI,Server,ENG_03,2,,0,,1.0,20,,0,0.272,delivery p10 tabanan ,0
+TICKET_0014,,Unclassified,ENG_04,2,,0,,1.0,19,,1,0.272,hld/lld p10 tabanan ,0
+TICKET_0015,,Unclassified,,2,,0,,,24,,1,0.272,run case eom paramater x ,0
+TICKET_0016,Internal,Unclassified,,2,,0,,,39,49.0,1,0.295,create sftp access untuk imhots hitachi setup sftp access untuk transfer file di jumphost,0
+TICKET_0017,Internal,Unclassified,,3,,0,,,45,52.0,1,0.497,"troubleshoot app crm tidak dapat upload photo check, setup nginx proxy time-out and change url api",1
+TICKET_0018,Internal,Unclassified,,2,,0,,,32,72.0,1,0.435,"setup minio bribox public access setup minio, nginx reverse proxy, open network and assign dns name minio",0
+TICKET_0019,Internal,Unclassified,,3,,0,,,25,69.0,1,0.693,"troubleshoot ovpn profile create user profile ovpn baru, dikarenakan yang existing sudah expire",1
+TICKET_0020,Internal,Unclassified,,2,,0,,,22,47.0,1,0.29,assign nama sub-domain assign nama subdomain dengan ip public prod aws,0
+TICKET_0021,Internal,Unclassified,,2,,0,,,32,42.0,1,0.275,setup and deploy web dash bribox setup infra deploy source code dash bribox,0
+TICKET_0022,Internal,Unclassified,,2,,0,,,28,65.0,1,0.415,setup ci/cd pipelines bribox setup git and ssh infrastructure job automation deployment server,0
+TICKET_0023,Internal,Unclassified,,2,,0,,,32,42.0,1,0.275,open port http payment dashboard setup nginx upstream listen open http port,0
+TICKET_0024,Internal,Unclassified,,2,,0,,,30,27.0,1,0.232,create 1 vm kurir new pasar.id create 1 vm instance di aws,0
+TICKET_0025,Internal,Unclassified,,2,,0,,,30,39.0,1,0.266,support setup ecs cxr platform support deployment ecs cxr platform app,0
+TICKET_0026,Internal,Unclassified,,2,,0,,,40,73.0,1,0.365,"setup ci/cd pipelines kurir new pasar.id setup git, ssh, nginx, docker deployment gitlab runner kurir new pasar.id",0
+TICKET_0027,Internal,Unclassified,,2,,0,,,28,84.0,1,0.47,"restart and stop vm instance restart vm jenkins and stop vm staging data science analytics, drone, openvpn di aws",0
+TICKET_0028,Internal,Unclassified,,2,,0,,,37,64.0,1,0.339,setup directory deeplink new pasar.id setup directory deeplink dan sinkronisasi url json ke mobile url,0
+TICKET_0029,Internal,Unclassified,,2,,0,,,25,63.0,1,0.336,"setup ci/cd pipelines crm setup git, ssh, nginx, docker deployment gitlab runner crm apps",0
+TICKET_0030,Internal,Unclassified,,3,,0,,,32,67.0,1,0.614,setup firewall port outbound p2g setup and open port outbound firewall port 8088 and 8023 di win srv,1
+TICKET_0031,Internal,Unclassified,,2,,0,,,29,47.0,1,0.29,"setup public access minio crm assign dns minio crm, setup nginx reverse proxy",0
+TICKET_0032,BRI,ICD,ENG_05,2,,0,,99.0,20,45.0,0,0.284,reupload 163 fujitsu upload ulang 163 fujitsu menggunakan mxloader,0
+TICKET_0033,BRI,ICD,ENG_05,2,,0,,99.0,14,,0,0.272,delete po 2982 ,0
+TICKET_0034,BRI,ICD,ENG_05,2,,0,,99.0,21,,0,0.272,delete po 42000020381 ,0
+TICKET_0035,BRI,ICD,ENG_05,3,,0,,99.0,53,52.0,0,0.497,troubleshoot classification di mendix yang gak muncul isi attribut di classification agar muncul di mendix,1
+TICKET_0036,BRI,ICD,ENG_05,3,,0,,99.0,45,60.0,0,0.52,troubleshoot asset yang gak ter create di icd di mendix harus diisi classification yang sesuai dengan item,1
+TICKET_0037,BRI,Network,,3,,0,,,19,,0,0.466,integrasi downlink  ,1
+TICKET_0038,Internal,Storage,ENG_06,3,,0,,7.0,33,71.0,0,0.626,"nutanix implementation, migration migrasi all vm secara parsial 
+dari nx lama (cl-01) ke 
+nx baru (cl-02)",1
+TICKET_0039,Internal,Storage,ENG_06,3,,0,,7.0,31,45.0,0,0.55,"konfig remote site on nutanix 
+ konfig remote site on nutanix 
+nx cl01 & cl02",1
+TICKET_0040,BRI,Server,ENG_06,2,,0,,7.0,26,46.0,0,0.36,"pat test ilo connectivity  pat test ilo connectivity on 
+network ls level",0
+TICKET_0041,BRI,Server,ENG_06,2,,0,,7.0,27,37.0,0,0.261,"install one view on vmware  install ov on vmw for cloudera 
+nodes",0
+TICKET_0042,BRI,Server,ENG_06,3,,0,,7.0,28,91.0,0,0.537,"support tim standby hpe 
+271 support tim standby hpe 
+271, issue on hba connectivity 
+hpe 24, unknown hba
+ status on ilo",1
+TICKET_0043,,Unclassified,ENG_07,2,,0,,1.0,43,,1,0.272,check ke provider untuk rent core fo option ,0
+TICKET_0044,,Unclassified,,2,,0,,,28,,1,0.272,follow up penawaran fortinet ,0
+TICKET_0045,BRI,ICD,ENG_05,2,,0,,99.0,14,77.0,0,0.376,upload data vm upload data vm karna ada gap sebanyak 200 asset yang belum masuk dari vcenter,0
+TICKET_0046,BRI,ICD,ENG_05,2,,0,,99.0,25,111.0,0,0.46,"delete asset cpo-vm-09327 hapus asset cpo-vm-09327 karna  dua kali create wo install  (wo 22674, wo 22673), jadi double di aplikasi asset",0
+TICKET_0047,BRI,ICD,ENG_05,2,,0,,99.0,15,,0,0.272,delete wo 22673 ,0
+TICKET_0048,BRI,ICD,ENG_05,2,,0,,99.0,15,,0,0.272,delete wo 22676 ,0
+TICKET_0049,BRI,CMDB,ENG_05,2,,0,,99.0,62,117.0,0,0.46,"tambah ci audit di class operatingsystem, pada attribut ostype tambah ci audit di class operatingsystem, pada attribut ostype,  agar setiap perubahan yang dilakukan ada history nya",0
+TICKET_0050,BRI,ICD,ENG_05,2,,0,,99.0,56,,0,0.272,ganti dns name jadi host name di listview aplikasi asset ,0
+TICKET_0051,BRI,ICD,ENG_05,2,,0,,99.0,54,,0,0.272,ganti type jadi ipaddress  di listview aplikasi asset  ,0
+TICKET_0052,Internal,Unclassified,ENG_01,2,,0,,479.0,36,58.0,1,0.321,assign dns asset cxr and provide ssl menambahkan dan mendaftarkan dns asset cxr dan provide ssl,0
+TICKET_0053,Internal,Unclassified,ENG_01,2,,0,,479.0,34,72.0,1,0.362,assign dns api and check lb be aws menambahkan dan mendaftarkan dns api be dan mengecheck status elb di aws,0
+TICKET_0054,Internal,Unclassified,ENG_01,3,,0,,479.0,46,71.0,1,0.552,provide list asset resource aws and cloudverse export dan download list asset resource di aws dan 3rd-party cloudverse,1
+TICKET_0055,Internal,Unclassified,ENG_01,2,,0,,479.0,42,85.0,1,0.399,provide & add to cart ri cost optimization buy reserved instance sesuai rekomendasi dari aws untuk optimasi harga dan diskon aws,0
+TICKET_0056,Internal,Unclassified,ENG_01,2,,0,,479.0,33,59.0,1,0.324,new request services quota ri aws create new request limit services reserved instance ec2 aws,0
+TICKET_0057,Internal,Unclassified,ENG_01,2,,0,,479.0,42,75.0,1,0.37,provide email hosting admin@localoka.co.id provide email hosting dan mendaftarkan dns dkim agar tidak masuk spam email,0
+TICKET_0058,Internal,Unclassified,ENG_01,2,,0,,479.0,49,37.0,1,0.261,setup nginx r. proxy and open port stream web app open port dan assign port di lb nginx,0
+TICKET_0059,Internal,Unclassified,ENG_01,3,,0,,479.0,50,66.0,1,0.538,troubleshoot dns time-out and check api by postman check and collect issue ts app dan check connection app by postman,1
+TICKET_0060,Internal,Unclassified,ENG_01,2,,0,,479.0,39,58.0,1,0.321,check license vm win srv site gti & nex login and check license and ensure win srv prod terlisensi,0
+TICKET_0061,Internal,Unclassified,ENG_01,2,,0,,479.0,26,35.0,1,0.402,create user's profile ovpn create beberapa user's profile ovpn,0
+TICKET_0062,BRI,Unclassified,ENG_01,2,,0,,479.0,50,61.0,1,0.33,"check and collect log report trend micro for audit collect log, create report and screenshoot report trend micro",0
+TICKET_0063,BRI,Unclassified,ENG_01,2,,0,,479.0,48,50.0,1,0.372,setup bitlocker untuk endpoint encrypt di laptop setup bitlocker untuk enkripsi disk windows server,0
+TICKET_0064,BRI,Unclassified,ENG_01,2,,0,,479.0,42,78.0,1,0.526,setup and create document hardening server install beberapa services untuk hardening server dan memastikan berjalan semua,0
+TICKET_0065,BRI,Unclassified,ENG_01,2,,0,,479.0,29,44.0,1,0.281,install operating system rhel install os redhat 7.9 / 8.6 hpe cloudera gti,0
+TICKET_0066,BRI,Server,ENG_06,2,,0,,7.0,30,41.0,0,0.272,doc hld & lld project cloudera revisi & finishing doc hld & lld cloudera,0
+TICKET_0067,BRI,Server,ENG_06,2,,0,,7.0,33,65.0,0,0.342,doc manual guide project cloudera request manual guide doc to hpe principal and upload it to gdrive,0
+TICKET_0068,Internal,Unclassified,ENG_01,2,2.0,0,3.0,479.0,18,47.0,1,0.29,open port pari app open and config nginx r. proxy gcp pari app dev,0
+TICKET_0069,Internal,Unclassified,ENG_01,2,2.0,0,3.0,479.0,31,73.0,1,0.365,provide ssl wildcard briview.id provide and create invoice purchase ssl wildcard rumah web for briview.id,0
+TICKET_0070,Internal,Unclassified,ENG_01,2,2.0,0,3.0,479.0,33,56.0,1,0.462,diskusi topology network internal diskusi topology dan best practice network internal bit.,0
+TICKET_0071,Internal,Unclassified,ENG_01,2,3.0,0,6.0,479.0,32,59.0,1,0.524,support fix api dev new pasar.id support fix api dev new pasar.id add feature delete acoount,0
+TICKET_0072,Internal,Unclassified,ENG_01,2,3.0,0,6.0,479.0,47,67.0,1,0.694,provide dns and user login minio object storage provide dns and create user login minio object storage bribox & crm,1
+TICKET_0073,Internal,Unclassified,ENG_01,2,3.0,0,6.0,479.0,31,63.0,1,0.536,support fix api crm mobile apps support and check config api crm upload photo via web dashboard,0
+TICKET_0074,Internal,Unclassified,ENG_01,3,3.0,0,6.0,479.0,58,68.0,1,0.817,support troubleshoot access and secret key bribox to minio create and provide access and secret key minio object storage bribox,1
+TICKET_0075,Internal,Unclassified,ENG_01,2,3.0,0,6.0,479.0,45,44.0,1,0.481,setup and add versioning minio bribox and crm set versioning for log and roll-back photo's,0
+TICKET_0076,Internal,Unclassified,ENG_01,2,4.0,0,3.0,479.0,31,45.0,1,0.284,create topology crm mobile apps create topology best practice crm mobile apps,0
+TICKET_0077,Internal,Unclassified,ENG_01,2,4.0,0,3.0,479.0,23,58.0,1,0.321,pentest crm mobile apps pentest security black box web and mobile apps crm for iso,0
+TICKET_0078,Internal,Unclassified,ENG_01,2,5.0,1,6.0,479.0,31,62.0,1,0.533,"support and fix api bad gateway check, fix and build images crm upload photo via dashboard web",0
+TICKET_0079,Internal,Unclassified,ENG_01,2,5.0,1,6.0,479.0,33,62.0,1,0.533,provide edc topology architecture provide and crosscheck edc topology architecture to mas matias,0
+TICKET_0080,Internal,Unclassified,ENG_01,2,6.0,1,1.0,479.0,36,57.0,1,0.538,"provide ovpn profile, gitlab account provide ovpn profile, gitlab account and server db access",0
+TICKET_0081,Internal,Unclassified,ENG_01,2,7.0,1,3.0,479.0,34,61.0,1,0.33,provide and invite datadog user's  provide and invite datadog user's for ops monitoring localoka,0
+TICKET_0082,Internal,Unclassified,ENG_01,2,7.0,1,3.0,479.0,32,44.0,1,0.281,"deploy e-office temporary public deploy and public e-office temp, for pentest",0
+TICKET_0083,Internal,Unclassified,ENG_01,2,7.0,1,3.0,479.0,30,41.0,1,0.272,pentest e-office for audit iso pentest e-office for audit iso 27001:2013,0
+TICKET_0084,Internal,Unclassified,ENG_01,2,1.0,0,5.0,479.0,30,51.0,1,0.501,create document va and pentest create document va and pentest for audit 27001:2013,0
+TICKET_0085,Internal,Unclassified,ENG_01,2,1.0,0,5.0,479.0,30,34.0,1,0.452,support and fix routes url crm support and fix routes url api crm,0
+TICKET_0086,Internal,Unclassified,ENG_01,2,1.0,0,5.0,479.0,26,41.0,1,0.472,provide ssl asset homespot provide and create ssl for asset homespot,0
+TICKET_0087,Internal,Unclassified,ENG_01,2,1.0,0,5.0,479.0,40,59.0,1,0.598,add dns asset homespot and assign to aws add new dns asset homespot for minio object storage photo's,1
+TICKET_0088,Internal,Unclassified,ENG_01,2,2.0,0,4.0,479.0,26,25.0,1,0.226,support fix api minio crm  support fix api minio crm,0
+TICKET_0089,Internal,Unclassified,ENG_01,2,2.0,0,4.0,479.0,30,31.0,1,0.243,deploy container image crm app deploy container images crm app,0
+TICKET_0090,Internal,Unclassified,ENG_01,2,2.0,0,4.0,479.0,36,43.0,1,0.278,create crm replica and ha with nginx create and config crm replica's mobile apps,0
+TICKET_0091,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,28,21.0,1,0.361,create user profile vpn bmso create user ovpn bmso,0
+TICKET_0092,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,22,47.0,1,0.436,check network pari app check network connection timed-out npm pari app,0
+TICKET_0093,Internal,Unclassified,ENG_01,2,4.0,0,3.0,479.0,38,42.0,1,0.275,check billing aws and stop vm instance check billing aws and stop vm instance ec2,0
+TICKET_0094,Internal,Unclassified,ENG_01,2,5.0,1,2.0,479.0,31,42.0,1,0.275,create csr and private key pari create and generate csr & private key pari,0
+TICKET_0095,Internal,Unclassified,ENG_01,2,5.0,1,2.0,479.0,48,51.0,1,0.301,provide and support ssl and verif by email pari  provide and support ssl & verify by email corp pari,0
+TICKET_0096,Internal,Unclassified,ENG_01,2,6.0,1,1.0,479.0,46,55.0,1,0.313,setup and generate ssl let's encrypt for pari  setup and generate ssl let's encrypt for pari temporary,0
+TICKET_0097,Internal,Unclassified,ENG_01,2,7.0,1,2.0,479.0,37,61.0,1,0.33,create csr and private key briview.id create and generate csr & private key for briview.id rumahweb,0
+TICKET_0098,Internal,Unclassified,ENG_01,2,7.0,1,2.0,479.0,37,42.0,1,0.275,setup verifikasi via cname briview.id setup verify via cname rumahweb briview.id,0
+TICKET_0099,Internal,Unclassified,ENG_01,2,5.0,1,6.0,479.0,41,48.0,1,0.492,create and generate api key maps localoka create and generate api key maps localoka in gcp,0
+TICKET_0100,BRI,Network,,2,5.0,1,6.0,,41,59.0,0,0.598,"support integrasi server compute workload - create vlan data,management dan vpc l2 out ke arah border",1
+TICKET_0101,BRI,Network,,2,5.0,1,6.0,,58,47.0,0,0.563,inventory module project network workload dan isc security - collect sn module dengan console ke perangkat,1
+TICKET_0102,BRI,Network,,2,5.0,1,6.0,,74,31.0,0,0.517,support integrasi storage workload dan ts4500 di perangkat oob (odc-mg-as) - create vlan management di oob,0
+TICKET_0103,Internal,Network,,3,1.0,0,2.0,,40,130.0,0,0.8,support troubleshoot down server nutanix - open port dan assign vlan disisi l2 switch-cisco untuk kebutuhan console ke arah compute dan monitoring by graph traffic network,1
+TICKET_0104,BRI,ICD,,2,3.0,0,6.0,,21,21.0,0,0.414,upload data asset cno upload data asset cno,0
+TICKET_0105,BRI,ICD,,2,4.0,0,3.0,,32,91.0,0,0.417,"buat subchild di klasifikasi icd buat subchild di klasifikasi icd, untuk apic controller, dan engine cluster dan golden unit",0
+TICKET_0106,BRI,ICD,,2,1.0,0,5.0,,32,32.0,0,0.446,upload data asset cno 16 oktober update data asset per 16 oktober,0
+TICKET_0107,BRI,ICD,,2,2.0,0,4.0,,32,53.0,0,0.307,"buat subchild di klasifikasi icd buat subchild di klasifikasi icd, untuk campus switch",0
+TICKET_0108,BRI,ICD,,2,3.0,0,3.0,,23,23.0,0,0.22,"reupload mdm, kjt, psak reupload mdm, kjt, psak",0
+TICKET_0109,BRI,ICD,,2,4.0,0,3.0,,31,63.0,0,0.336,update installation date kosong upload update installation date dan nomor spk yang masih kosong,0
+TICKET_0110,BRI,ICD,,2,4.0,0,3.0,,30,66.0,0,0.344,"delete pn dari db yang berubah delete pn, karna pn baru berubah dan pn lama gak akan dipakai lagi",0
+TICKET_0111,BRI,ICD,,2,1.0,0,2.0,,32,24.0,0,0.223,upload data asset cno 23 oktober upload update data asset,0
+TICKET_0112,Internal,Unclassified,ENG_01,3,2.0,0,2.0,479.0,34,31.0,1,0.437,"troubleshoot vm node apps tms edc
+ ts vm node1 apps cloned tms edc",0
+TICKET_0113,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,30,35.0,1,0.455,"mapping and open port tms edc
+ mapping and open port tms edc nginx",0
+TICKET_0114,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,26,31.0,1,0.443,"mapping and open port p2g
+ mapping and open port p2g nginx",0
+TICKET_0115,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,27,32.0,1,0.446,"mapping and open port pari
+ mapping and open port pari nginx",0
+TICKET_0116,Internal,Unclassified,ENG_01,3,3.0,1,7.0,479.0,38,54.0,1,0.703,troubleshoot 504 bad gateway minio crm ts 504 bad gateway minio and compose pull image docker,1
+TICKET_0117,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,30,41.0,1,0.472,provide cost aws jan - sep '23 assess and provide aws cost jan - sep '23,0
+TICKET_0118,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,21,29.0,1,0.438,setup inbound p2g dev setup inbound p2g dev win srv,0
+TICKET_0119,Internal,Unclassified,ENG_01,2,3.0,1,7.0,479.0,39,44.0,1,0.481,"setup open port nginx p2g, edc and pari open port all req nginx p2g edc tms and pari",1
+TICKET_0120,Internal,Unclassified,ENG_01,2,4.0,1,1.0,479.0,29,23.0,1,0.22,assess and create sop pentest create sop diio pentest,0
+TICKET_0121,Internal,Unclassified,ENG_01,2,5.0,1,3.0,479.0,28,28.0,1,0.235,enable feature gmaps gcloud  enable feature gmaps gcloud ,0
+TICKET_0122,Internal,Unclassified,ENG_01,2,5.0,1,3.0,479.0,33,51.0,1,0.301,open port and check node02 rescue open port apps nat and check services node02 rescue,0
+TICKET_0123,Internal,Unclassified,ENG_01,3,1.0,1,3.0,479.0,34,47.0,1,0.483,create and collect incident report create and collect incident report node nutanix,1
+TICKET_0124,Internal,Unclassified,ENG_01,3,1.0,1,3.0,479.0,33,35.0,1,0.595,troubleshoot 5xx apache druid crm troubleshoot error apache druid crm,0
+TICKET_0125,Internal,Unclassified,ENG_01,2,1.0,1,3.0,479.0,28,28.0,1,0.381,create user profile vpn dpdo create user profile vpn dpdo,0
+TICKET_0126,Internal,Unclassified,ENG_01,2,2.0,1,4.0,479.0,28,39.0,1,0.266,change name domain kurir dev change name domain kurir dev newpasarid,0
+TICKET_0127,Internal,Unclassified,ENG_01,2,2.0,1,4.0,479.0,22,30.0,1,0.24,generate ssl kurir dev generate ssl certbot kurir dev,0
+TICKET_0128,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,33,40.0,1,0.269,create 1 instance vm pss centos 7 create 1 instance vm di nx cl02 centos 7,0
+TICKET_0129,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,28,28.0,1,0.235,create doc sop hardening srv create doc sop hardening srv,0
+TICKET_0130,Internal,Unclassified,ENG_01,3,4.0,0,3.0,479.0,26,34.0,1,0.519,fix support tshoot crm tid fix support tshoot crm tid feature,0
+TICKET_0131,Internal,Unclassified,ENG_01,3,5.0,1,4.0,479.0,35,35.0,1,0.522,fix tshoot ci/cd kurir new pasar.id fix tshoot ci/cd kurir new pasar.id,0
+TICKET_0132,Internal,Unclassified,ENG_01,1,5.0,1,4.0,479.0,24,32.0,1,0.2,create user profile ovpn create user profile mini pc pmso,0
+TICKET_0133,Internal,Unclassified,ENG_01,3,7.0,1,2.0,479.0,23,49.0,1,0.562,tshoot ssl *.bitcorp.id tshoot ssl *.bitcorp.id verifikasi ke sectigo ssl,1
+TICKET_0134,Internal,Unclassified,ENG_01,2,7.0,1,2.0,479.0,32,25.0,1,0.226,pemasangan ssl di crm dan bribox assign ssl crm and bribox,0
+TICKET_0135,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,41,41.0,1,0.472,assign and setup ssl di cpanel bitcorp.id assign and setup ssl di cpanel bitcorp.id,0
+TICKET_0136,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,30,27.0,1,0.432,setup ssl di compro bitcorp.id setup ssl compro bitcorp.id,0
+TICKET_0137,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,29,40.0,1,0.469,setup nginx ssl uptime status setup nginx ssl uptime status bitcorp.id,0
+TICKET_0138,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,58,52.0,1,0.504,"update setup ssl ca, private key and bundle ssl bitcorp.id setup ssl ca, private key,  and ca bundle bitcorp.id",0
+TICKET_0139,Internal,Unclassified,ENG_01,3,1.0,0,8.0,479.0,28,66.0,1,0.884,"check server and service p2g check server and service p2g, issue: down, ssl and server p2g down",1
+TICKET_0140,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,44,41.0,1,0.472,"install and update license p2g app, auth, db install and update version license p2g db",0
+TICKET_0141,Internal,Unclassified,ENG_01,2,1.0,0,8.0,479.0,26,26.0,1,0.429,assign ssl pari bitcorp.id assign ssl pari bitcorp.id,0
+TICKET_0142,BRI,ICD,ENG_05,2,2.0,0,2.0,99.0,46,68.0,0,0.35,change status asset dari not ready jadi active change status asset dari not ready jadi active menggunakan mx loader,0
+TICKET_0143,BRI,ICD,ENG_05,2,5.0,1,3.0,99.0,51,73.0,0,0.365,upload data (lengkapi installation date yang salah) upload data (lengkapi installation date yang salah menggunakan mx loader),0
+TICKET_0144,BRI,ICD,ENG_05,2,2.0,1,4.0,99.0,48,62.0,0,0.333,hapus serialnumber yang double di asset cloudera hapus serialnumber yang double di asset cloudera dari database,0
+TICKET_0145,BRI,ICD,ENG_05,2,2.0,1,4.0,99.0,52,52.0,0,0.304,cek script integrasi wo vm untuk sync nya dipercepat cek script integrasi wo vm untuk sync nya dipercepat,0
+TICKET_0146,BRI,ICD,ENG_05,2,3.0,0,3.0,99.0,75,75.0,0,0.37,modify script schedule integrasi wo install vm untuk dijalankan per 5 menit modify script schedule integrasi wo install vm untuk dijalankan per 5 menit,0
+TICKET_0147,BRI,ICD,ENG_05,2,4.0,0,3.0,99.0,54,54.0,0,0.31,create schedule integrasi terpisah untuk wo install vm create schedule integrasi terpisah untuk wo install vm,0
+TICKET_0148,BRI,ICD,ENG_05,1,4.0,0,3.0,99.0,63,63.0,0,0.216,upload data panel odr(melengkapi installation date yang kosong) upload data panel odr(melengkapi installation date yang kosong),0
+TICKET_0149,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,76,76.0,0,0.373,backup data specifikasi asset untuk nantinya diganti dengan klasifikasi baru backup data specifikasi asset untuk nantinya diganti dengan klasifikasi baru,0
+TICKET_0150,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,100,120.0,0,0.533,"modify klasifikasi baru di asset, backup data specifikasi, upload data asset dengan klasifikasi baru modify klasifikasi baru di asset, backup data specifikasi, upload data asset dengan spesifikasi baru(network\appliances)",1
+TICKET_0151,BRI,ICD,ENG_05,1,1.0,0,8.0,99.0,92,92.0,0,0.72,"upload asset dengan klasifikasi baru(network \switch, compute \storage, compute \x86 server) upload asset dengan klasifikasi baru(network \switch, compute \storage, compute \x86 server)",0
+TICKET_0152,Internal,Unclassified,ENG_01,2,3.0,0,7.0,479.0,53,53.0,1,0.507,provide list ip address aws new pasar.id and localoka provide list ip address aws new pasar.id and localoka,1
+TICKET_0153,Internal,Unclassified,ENG_01,2,3.0,0,7.0,479.0,28,37.0,1,0.607,create doc user matrix ovpn  create user matrix ovpn for iso 27001,0
+TICKET_0154,Internal,Unclassified,ENG_01,1,3.0,0,7.0,479.0,29,45.0,1,0.51,create user profile ovpn sdrd create user profile ovpn request by email hrd,0
+TICKET_0155,Internal,Unclassified,ENG_01,2,3.0,0,7.0,479.0,29,48.0,1,0.639,create doc user matrix server create doc user matrix server for iso 27001:2013,0
+TICKET_0156,Internal,Unclassified,ENG_01,2,3.0,0,7.0,479.0,30,30.0,1,0.44,provide private key briview.id provide private key briview.id,0
+TICKET_0157,Internal,Unclassified,ENG_01,2,4.0,0,5.0,479.0,34,34.0,1,0.452,provide list instance aws platform provide list instance aws platform,0
+TICKET_0158,Internal,Unclassified,ENG_01,2,5.0,1,4.0,479.0,36,36.0,1,0.478,install and setup ovpn server on aws install and setup ovpn server on aws,0
+TICKET_0159,Internal,Unclassified,ENG_01,2,1.0,0,4.0,479.0,24,25.0,1,0.226,provide ssl for api pari provide ssl for api pari ,0
+TICKET_0160,Internal,Unclassified,ENG_01,1,3.0,0,4.0,479.0,21,29.0,1,0.264,create user ovpn dpss create user profile ovpn dpss,0
+TICKET_0161,Internal,Unclassified,ENG_01,2,3.0,0,4.0,479.0,33,47.0,1,0.29,"stop instance, lb, ecs on aws cxr stop instances, lb and ecs on aws cxr by e-mail",0
+TICKET_0162,Internal,Unclassified,ENG_01,1,5.0,1,4.0,479.0,32,46.0,1,0.313,create user profile vpn for pmso create user profile ovpn for pc command center,0
+TICKET_0163,BRI,ICD,ENG_05,2,3.0,0,7.0,99.0,35,126.0,0,0.807,pindahkan asset ke klasifikasi baru pindahkan asset dari klasifikasi compute \ server cpo \  as400 \lpar as400 ke klasifikasi baru compute \ legacy server \ as400,1
+TICKET_0164,BRI,ICD,ENG_05,2,3.0,0,7.0,99.0,68,144.0,0,0.733,"checking data asset apakah sudah sesuai dengan klasifikasi dan jenis ada beberapa asset yang seharusnya masuk ke klasifikasi electrical \ pdu, tapi malah masuk ke klasifikasi network \ hubsystem \ passive splitter",1
+TICKET_0165,BRI,ICD,ENG_05,2,4.0,0,5.0,99.0,35,53.0,0,0.507,"pindahkan asset ke klasifikasi baru pindahkan asset ke klasifikasi baru, electrical \ pdu",1
+TICKET_0166,BRI,ICD,ENG_05,2,4.0,0,5.0,99.0,68,147.0,0,0.733,"checking data asset apakah sudah sesuai dengan klasifikasi dan jenis ada beberapa asset yang seharusnya masuk ke klasifikasi electrical \ pdu, tapi malah masuk ke klasifikasi network \ hubsystem \ pci expansion blade",1
+TICKET_0167,BRI,ICD,ENG_05,2,4.0,0,5.0,99.0,35,53.0,0,0.507,"pindahkan asset ke klasifikasi baru pindahkan asset ke klasifikasi baru, electrical \ pdu",1
+TICKET_0168,BRI,ICD,ENG_05,2,4.0,0,5.0,99.0,35,114.0,0,0.733,"pindahkan asset ke klasifikasi baru pindahkan asset router hub, core router, edge router, internet gateway router, inter dc router ke network \ router",1
+TICKET_0169,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,35,96.0,0,0.651,pindahkan asset ke klasifikasi baru pindahkan asset server fisik tabanan ke klasifikasi baru(compute \ x86 server \ physical server),1
+TICKET_0170,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,68,149.0,0,0.533,"checking data asset apakah sudah sesuai dengan klasifikasi dan jenis ada beberapa asset yang seharusnya masuk ke klasifikasi compute \ wokstation, tapi malah masuk ke klasifikasi network \ hubsystem \ spectrum analyzer",0
+TICKET_0171,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,35,65.0,0,0.415,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(compute \ workstation),0
+TICKET_0172,BRI,ICD,ENG_05,2,1.0,0,4.0,99.0,68,131.0,0,0.607,"checking data asset apakah sudah sesuai dengan klasifikasi dan jenis sebagian asset  yang seharusnya ada di klasifikasi network\hubsystem\hubswitch), ada di klasifikasi network \ hubsystem \ if switch",0
+TICKET_0173,BRI,ICD,ENG_05,2,1.0,0,4.0,99.0,35,75.0,0,0.517,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(network \ hubsystem \ if switch),1
+TICKET_0174,BRI,ICD,ENG_05,2,1.0,0,4.0,99.0,35,119.0,0,0.533,"pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(physical dc \ tangki \ tangki harian, physical dc \ tangki \ tangki bulanan)",1
+TICKET_0175,BRI,ICD,ENG_05,2,2.0,0,3.0,99.0,35,64.0,0,0.412,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(physical dc \ sensor),0
+TICKET_0176,BRI,ICD,ENG_05,2,2.0,0,3.0,99.0,68,165.0,0,0.46,"checking data asset apakah sudah sesuai dengan klasifikasi dan jenis di icd ada beberapa asset yang jenisnya masuk ke jenis asset itx, dan klasifikasinya masuk ke electrical \ panel, seharusnya klasifikasinya masuk ke electrical \ itx",1
+TICKET_0177,BRI,ICD,ENG_05,2,2.0,0,3.0,99.0,35,60.0,0,0.4,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(electrical \ itx),0
+TICKET_0178,BRI,ICD,ENG_05,2,3.0,0,4.0,99.0,29,58.0,0,0.321,"buat subchild klasifikasi pac buat subchild klasifikasi baru untuk pac, indoor & outdoor",0
+TICKET_0179,BRI,ICD,ENG_05,2,3.0,0,4.0,99.0,35,96.0,0,0.504,"pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(mechanical \ pac \ indoor, mechanical \ pac \outdoor)",1
+TICKET_0180,BRI,ICD,ENG_05,2,4.0,0,2.0,99.0,35,64.0,0,0.412,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(compute \ appliances),0
+TICKET_0181,BRI,ICD,ENG_05,2,4.0,0,2.0,99.0,35,79.0,0,0.529,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(compute \ legacy server \ mainframe),1
+TICKET_0182,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,35,98.0,0,0.51,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(antena & rf \ ground system \ antena \ tt&c system 11m),0
+TICKET_0183,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,35,69.0,0,0.426,pindahkan asset ke klasifikasi baru pindahkan asset server ke klasifikasi baru(security dc \ kamera cctv),0
+TICKET_0184,BRI,ICD,ENG_05,2,5.0,1,4.0,99.0,25,57.0,0,0.318,"buat kode jenis perangkat buat kode jenis perangkat, gate barrier, printer, scanner",0
+TICKET_0185,BRI,ICD,ENG_05,2,2.0,0,2.0,99.0,43,43.0,0,0.278,upload kode jenis dan kode kelompok di spec upload kode jenis dan kode kelompok di spec,0
+TICKET_0186,BRI,ICD,ENG_05,2,2.0,0,2.0,99.0,21,21.0,0,0.214,upload kategori asset upload kategori asset,0
+TICKET_0187,BRI,Network,,3,1.0,0,2.0,,50,115.0,0,0.8,"test failover network workload uplink dan downlink shutdown uplink ke arah spine 3 dan 4 secara bergantian. dan juga, shutdown leaf ganjil dan genap secara bergantian",1
+TICKET_0188,BRI,Network,,3,1.0,0,2.0,,33,43.0,0,0.398,clear alert fault di ndi dan apic acknowledge dan clear fault di ndi dan apic,1
+TICKET_0189,Internal,Unclassified,ENG_01,3,3.0,0,5.0,479.0,31,33.0,1,0.789,support migrasi vm cl01 to cl02 support migrasi vm windows server,0
+TICKET_0190,Internal,Unclassified,ENG_01,2,3.0,0,5.0,479.0,31,43.0,1,0.478,provide harga estimasi vims aws provide harga estimasi vims cctv crm di aws,0
+TICKET_0191,Internal,Unclassified,ENG_01,2,3.0,0,5.0,479.0,24,24.0,1,0.423,create user profile dpdo create user profile dpdo,0
+TICKET_0192,Internal,Unclassified,ENG_01,2,4.0,0,2.0,479.0,18,18.0,1,0.206,open port dev pari open port dev pari,0
+TICKET_0193,Internal,Unclassified,ENG_01,2,5.0,1,2.0,479.0,32,29.0,1,0.238,assign domain a address localoka assign a address dns localoka,0
+TICKET_0194,Internal,Unclassified,ENG_01,2,1.0,1,4.0,479.0,36,38.0,1,0.264,add and assign ssl pari faq & mantri add and assign ssl pari faq and mantri,0
+TICKET_0195,Internal,Unclassified,ENG_01,2,1.0,1,4.0,479.0,42,41.0,1,0.272,"provide list vm nxcl01, nxcl02, and dxcl01 provide list vm nxcl01, nxcl02 and dxcl01",0
+TICKET_0196,Internal,Unclassified,ENG_01,2,1.0,1,4.0,479.0,30,30.0,1,0.24,update apps service uptime bit update apps service uptime bit,0
+TICKET_0197,Internal,Unclassified,ENG_01,2,2.0,1,4.0,479.0,37,44.0,1,0.281,support deployment kurir new pasar.id support update deployment kurir new pasar.id,0
+TICKET_0198,Internal,Unclassified,ENG_01,2,2.0,1,4.0,479.0,42,50.0,1,0.298,meeting diskusi apps topology new pasar.id meeting diskusi enhance apps topology new pasar.id,0
+TICKET_0199,Internal,Unclassified,ENG_01,2,3.0,1,3.0,479.0,27,27.0,1,0.232,deployment api new pasar.id deployment api new pasar.id,0
+TICKET_0200,Internal,Unclassified,ENG_01,3,4.0,1,2.0,479.0,32,50.0,1,0.492,troubleshoot bribox photos blank check minio and database bribox and search photos ,1
+TICKET_0201,Internal,Unclassified,ENG_01,1,5.0,1,7.0,479.0,29,53.0,1,0.534,create user profile ovpn pmso create user profile pmso and add to excel matrix ovpn,0
+TICKET_0202,Internal,Unclassified,ENG_01,2,5.0,1,7.0,479.0,43,59.0,1,0.524,support deployment kafka & druid for ej crm support deployment apache kafka and druid to stream ej crm ,1
+TICKET_0203,Internal,Unclassified,ENG_01,2,5.0,1,7.0,479.0,38,68.0,1,0.55,configure stream kafka to druid ej crm configure json type stream and produce data kafka integrate to druid,1
+TICKET_0204,Internal,Unclassified,ENG_01,2,5.0,1,7.0,479.0,41,41.0,1,0.619,add mail server to env kurir new pasar.id add mail server to env kurir new pasar.id,1
+TICKET_0205,Internal,Unclassified,ENG_01,2,5.0,1,7.0,479.0,36,50.0,1,0.498,assign ssl pari dev.pari.briit.co.id assign and check ssl pari dev dev.pari.briit.co.id,0
+TICKET_0206,Internal,Unclassified,ENG_01,2,5.0,1,7.0,479.0,59,59.0,1,0.524,"setup config nginx and assign ssl dash, minio and microsite setup config nginx and assign ssl dash, minio and microsite",0
+TICKET_0207,Internal,Unclassified,ENG_01,3,1.0,0,7.0,479.0,29,52.0,1,0.697,troubleshoot new pasar.id api ts new pasar.id api and create 5 replica's container,1
+TICKET_0208,Internal,Unclassified,ENG_01,3,1.0,0,7.0,479.0,37,64.0,1,0.732,troubleshoot api payment new pasar.id ts api payment new pasar.id and provide ssl payment new pasar.id,1
+TICKET_0209,Internal,Unclassified,ENG_01,2,1.0,0,7.0,479.0,41,45.0,1,0.484,create instance assets minio new pasar.id create instance ec2 assets minio new pasar.id,1
+TICKET_0210,Internal,Unclassified,ENG_01,2,1.0,0,7.0,479.0,34,34.0,1,0.452,resize ram and cpu db new pasar.id resize x2 ram and cpu new pasar.id,0
+TICKET_0211,Internal,Unclassified,ENG_01,2,1.0,0,7.0,479.0,43,43.0,1,0.478,setup and config minio service new pasar.id setup and config minio service new pasar.id,1
+TICKET_0212,Internal,Unclassified,ENG_01,2,1.0,0,7.0,479.0,38,38.0,1,0.464,add and assign dns assets new pasar.id add and assign dns assets new pasar.id,1
+TICKET_0213,Internal,Unclassified,ENG_01,2,1.0,0,7.0,479.0,35,57.0,1,0.518,stress test app and db new pasar.id stress test with apache benchmark app and db new pasar.id,0
+TICKET_0214,Internal,Unclassified,ENG_01,2,2.0,0,3.0,479.0,34,33.0,1,0.249,tuning performance db new pasar.id tunng performance db new pasar.id,0
+TICKET_0215,Internal,Unclassified,ENG_01,1,2.0,0,3.0,479.0,35,33.0,1,0.276,create user profile ovpn pmso - mso create user profile ovpn pmso-mso,0
+TICKET_0216,Internal,Unclassified,ENG_01,2,2.0,0,3.0,479.0,30,41.0,1,0.272,check connection p2g port 8871 check connection and telnet p2g port 8871,0
+TICKET_0217,BRI,Discovery,ENG_05,2,3.0,0,5.0,99.0,56,56.0,0,0.516,ganti credential username dan password capam yang expire ganti credential username dan password capam yang expire,0
+TICKET_0218,BRI,Discovery,ENG_05,2,3.0,0,5.0,99.0,45,45.0,0,0.484,buat scheduler untuk outpost ip 172.18.65.124 buat scheduler untuk outpost ip 172.18.65.124,0
+TICKET_0219,BRI,ICD,ENG_05,2,4.0,0,2.0,99.0,64,64.0,0,0.339,upload data vm untuk attribute appname dan component yang kosong upload data vm untuk attribute appname dan component yang kosong,0
+TICKET_0220,BRI,ICD,ENG_05,2,5.0,1,2.0,99.0,72,72.0,0,0.362,"upload data vm untuk attribute detail os, dan end of support yang kosong upload data vm untuk attribute detail os, dan end of support yang kosong",0
+TICKET_0221,BRI,ICD,ENG_05,2,1.0,1,4.0,99.0,60,60.0,0,0.327,"tambah  kategori asset, jenis dan kelompok di asset listview tambah  kategori asset, jenis dan kelompok di asset listview",0
+TICKET_0222,BRI,ICD,ENG_05,2,3.0,1,3.0,99.0,60,60.0,0,0.327,"tambah  kategori asset, jenis dan kelompok di asset listview tambah  kategori asset, jenis dan kelompok di asset listview",0
+TICKET_0223,BRI,ICD,ENG_05,2,4.0,1,2.0,99.0,60,60.0,0,0.327,tambah  dashboard asset untuk lihat end of support(obsolete) tambah  dashboard asset untuk lihat end of support(obsolete),0
+TICKET_0224,BRI,ICD,ENG_05,2,5.0,1,7.0,99.0,44,44.0,0,0.481,"tambah workflow tabanan, sentul dan sudirman tambah workflow tabanan, sentul dan sudirman",1
+TICKET_0225,BRI,Unclassified,ENG_08,2,2.0,1,4.0,4.0,52,59.0,1,0.324,sharing knowledge dengan bri terkait produk apex one mempresentasikan produk apex one dan edr kepada tim eps bri,0
+TICKET_0226,BRI,Unclassified,ENG_08,2,3.0,1,3.0,4.0,38,51.0,1,0.374,healthcheck perangkat apex one dan edr cek utilisasi server dan backup db apex one dan edr,0
+TICKET_0227,BRI,Unclassified,ENG_08,2,2.0,1,4.0,4.0,44,69.0,1,0.353,diskusi data threat detected data center bri menjelaskan temuan threat yang ada pada enviorenment  data center bri,0
+TICKET_0228,Internal,Unclassified,ENG_01,2,3.0,0,2.0,479.0,25,33.0,1,0.322,power on ec2 cxr exchange power on server instance ec2 cxr ,0
+TICKET_0229,Internal,Unclassified,ENG_01,2,3.0,0,2.0,479.0,31,35.0,1,0.255,create vm instance ec2 db slave create vm instance aws ec2 db slave,0
+TICKET_0230,Internal,Unclassified,ENG_01,2,4.0,0,6.0,479.0,40,40.0,1,0.469,install and configure mysql new pasar.id install and configure mysql new pasar.id,1
+TICKET_0231,Internal,Unclassified,ENG_01,2,4.0,0,6.0,479.0,50,50.0,1,0.498,setup and config master - slave rdbms new pasar.id setup and config master - slave rdbms new pasar.id,0
+TICKET_0232,Internal,Unclassified,ENG_01,2,4.0,0,6.0,479.0,55,72.0,1,0.562,install and setup percona management & monitoring rdbms setup and configure percona management and monitoring rdbms new pasar.id,1
+TICKET_0233,Internal,Unclassified,ENG_01,2,4.0,0,6.0,479.0,35,35.0,1,0.455,configure pmm db slave new pasar.id configure pmm db slave new pasar.id,0
+TICKET_0234,Internal,Unclassified,ENG_01,3,4.0,0,6.0,479.0,35,35.0,1,0.722,troubleshoot ci/cd api new pasar.id troubleshoot ci/cd api new pasar.id,0
+TICKET_0235,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,44,44.0,1,0.481,support deployment all services new pasar.id support deployment all services new pasar.id,1
+TICKET_0236,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,40,53.0,1,0.507,copy files directory with metadata minio copy files directory with metadata minio new pasar.id,1
+TICKET_0237,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,41,41.0,1,0.472,poc google cloud bank raya x huawei cloud poc google cloud bank raya x huawei cloud,0
+TICKET_0238,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,26,26.0,1,0.429,meeting diskusi infra pari meeting diskusi infra pari,0
+TICKET_0239,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,42,42.0,1,0.475,provide setup domain mail google workspace provide setup domain mail google workspace,0
+TICKET_0240,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,40,44.0,1,0.481,setup replica master-master new pasar.id setup db replicas master-master new pasar.id,1
+TICKET_0241,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,39,39.0,1,0.466,add and register agent db master to pmm add and register agent db master to pmm,0
+TICKET_0242,Internal,Unclassified,ENG_01,3,5.0,1,10.0,479.0,35,35.0,1,0.722,support tshoot api log new pasar.id support tshoot api log new pasar.id,0
+TICKET_0243,Internal,Unclassified,ENG_01,2,5.0,1,10.0,479.0,38,52.0,1,0.504,provide cost estimate stag - prod pari provice cost estimates stag-prod pari aws calculator,1
+TICKET_0244,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,30,30.0,1,0.44,pull image photos to minio srv pull image photos to minio srv,0
+TICKET_0245,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,35,70.0,1,0.556,"compress image produks new pasar.id compress image produks new pasar.id with imagemagick, pillow, and imgp",0
+TICKET_0246,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,46,46.0,1,0.487,setup permission and policy image access minio setup permission and policy image access minio,0
+TICKET_0247,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,44,44.0,1,0.481,install and configure minio dev new pasar.id install and configure minio dev new pasar.id,0
+TICKET_0248,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,38,41.0,1,0.472,"provide list nx cl01, cl02 and dx cl01 provide list vm nxcl01, nxcl02 and dxcl01",0
+TICKET_0249,External,Unclassified,ENG_01,2,1.0,0,8.0,479.0,37,37.0,1,0.461,open port and setup nginx p2g edc log open port and setup nginx p2g edc log,1
+TICKET_0250,External,Unclassified,ENG_01,2,2.0,0,3.0,479.0,32,32.0,1,0.246,create and setup ci/cd kurir dev create and setup ci/cd kurir dev,0
+TICKET_0251,External,Unclassified,ENG_01,2,2.0,0,3.0,479.0,30,36.0,1,0.258,assign ssl and nginx minio dev assign ssl and setup nginx minio dev,0
+TICKET_0252,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,36,49.0,1,0.295,set upload and timeout upload photos set upload and timeout upload photos new pasar.id,0
+TICKET_0253,External,Unclassified,ENG_01,1,3.0,0,3.0,479.0,28,28.0,1,0.261,create user profile ovpn pss create user profile ovpn pss,0
+TICKET_0254,External,Unclassified,ENG_01,2,4.0,0,5.0,479.0,36,36.0,1,0.458,migrate repository gitlab vulcan crm migrate repository gitlab vulcan crm,0
+TICKET_0255,External,Unclassified,ENG_01,2,4.0,0,5.0,479.0,36,36.0,1,0.458,update service status uptime bitcorp update service status uptime bitcorp,0
+TICKET_0256,External,Unclassified,ENG_01,2,4.0,0,5.0,479.0,53,53.0,1,0.507,setup and check cronjob api on container new pasar.id setup and check cronjob api on container new pasar.id,0
+TICKET_0257,External,Unclassified,ENG_01,3,4.0,0,5.0,479.0,37,36.0,1,0.724,support tshoot minio put image object support tshoot mnio put image object,1
+TICKET_0258,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,40,40.0,1,0.469,"assign ssl dev pari etpi, micro and corp assign ssl dev pari etpi, micro and corp",0
+TICKET_0259,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,33,33.0,1,0.449,setup nginx ssl/tls port pari dev setup nginx ssl/tls port pari dev,0
+TICKET_0260,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,39,39.0,1,0.466,provide topology edc nginx to pak irfan provide topology edc nginx to pak irfan,1
+TICKET_0261,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,33,33.0,1,0.449,provide list nat p2g dev and prod provide list nat p2g dev and prod,0
+TICKET_0262,External,Unclassified,ENG_01,3,5.0,1,5.0,479.0,32,32.0,1,0.786,setup nginx and tshoot error xml setup nginx and tshoot error xml,0
+TICKET_0263,External,Unclassified,ENG_01,2,6.0,1,1.0,479.0,49,49.0,1,0.442,pointing link image storage to minio new pasar.id pointing link image storage to minio new pasar.id,0
+TICKET_0264,External,Unclassified,ENG_01,2,7.0,1,3.0,479.0,29,29.0,1,0.238,power off db old new pasar.id power off db old new pasar.id,0
+TICKET_0265,External,Unclassified,ENG_01,2,7.0,1,3.0,479.0,49,48.0,1,0.292,archive and compress backup logs new pasar.id app archive and compress backup logs new pasarid app,0
+TICKET_0266,External,Unclassified,ENG_01,2,7.0,1,3.0,479.0,61,61.0,1,0.33,create and setup cronjob backup logs with timestamp yesterday create and setup cronjob backup logs with timestamp yesterday,0
+TICKET_0267,External,Unclassified,ENG_01,1,1.0,0,4.0,479.0,24,24.0,1,0.25,create user profile ovpn create user profile ovpn,0
+TICKET_0268,External,Unclassified,ENG_01,3,1.0,0,4.0,479.0,38,38.0,1,0.53,diskusi and tshoot p2g connection fail diskusi and tshoot p2g connection fail,0
+TICKET_0269,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,46,46.0,1,0.287,add and setup monitoring vulcan crm to grafana add and setup monitoring vulcan crm to grafana,0
+TICKET_0270,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,75,75.0,1,0.37,create script automate prometheus and node exporter setup for monitoring vm create script automate prometheus and node exporter setup for monitoring vm,0
+TICKET_0271,External,Unclassified,ENG_01,1,2.0,0,2.0,479.0,29,29.0,1,0.264,create user profile ovpn dpdo create user profile ovpn dpdo,0
+TICKET_0272,External,Britam Mobile,ENG_05,2,4.0,0,6.0,99.0,22,53.0,0,0.507,"deploy mendix dan test deploy mendix dan test po, wo dengan klasifikasi baru",0
+TICKET_0273,External,Britam Mobile,ENG_05,2,5.0,1,10.0,99.0,22,53.0,0,0.507,"deploy mendix dan test deploy mendix dan test po, wo dengan klasifikasi baru",0
+TICKET_0274,External,Britam Mobile,ENG_05,2,1.0,0,8.0,99.0,22,53.0,0,0.507,"deploy mendix dan test deploy mendix dan test po, wo dengan klasifikasi baru",0
+TICKET_0275,External,ICD,ENG_05,3,1.0,0,8.0,99.0,40,40.0,0,0.736,fixing websphere (service icd) yang down fixing websphere (service icd) yang down,1
+TICKET_0276,External,ICD,ENG_05,3,2.0,0,3.0,99.0,40,40.0,0,0.536,fixing websphere (service icd) yang down fixing websphere (service icd) yang down,1
+TICKET_0277,External,ICD,ENG_05,3,3.0,0,3.0,99.0,40,40.0,0,0.536,fixing websphere (service icd) yang down fixing websphere (service icd) yang down,1
+TICKET_0278,External,Britam Mobile,ENG_05,2,4.0,0,5.0,99.0,22,53.0,0,0.507,"deploy mendix dan test deploy mendix dan test po, wo dengan klasifikasi baru",0
+TICKET_0279,External,ICD,ENG_05,1,1.0,0,4.0,99.0,81,102.0,0,0.328,persiapan upload asset data laptop pekerja & work station dengan klasifikasi baru persiapan upload asset data laptop pekerja & work station dengan klasifikasi baru menggunakan mxloader,0
+TICKET_0280,External,Unclassified,ENG_01,1,3.0,0,11.0,479.0,24,24.0,1,0.45,create user profile ovpn create user profile ovpn,0
+TICKET_0281,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,29,36.0,1,0.458,pull image minio to local srv pull image photos minio to local srv,0
+TICKET_0282,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,37,37.0,1,0.461,compress image new pasar.id with imgp compress image new pasar.id with imgp,1
+TICKET_0283,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,50,46.0,1,0.487,"push image produk, pemasok, etc to minio and check push image produk, pemasok to minio and check ",1
+TICKET_0284,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,37,38.0,1,0.464,create ec2 instance briview montoring create ec2 instance briview monitoring,0
+TICKET_0285,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,46,46.0,1,0.487,install and setup prometheus and node exporter install and setup prometheus and node exporter,1
+TICKET_0286,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,35,35.0,1,0.455,install and setup grafana installer install and setup grafana installer,0
+TICKET_0287,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,45,35.0,1,0.455,setup grafana briview monitoring vm dashboard setup grafana briview monitoring vm,0
+TICKET_0288,External,Unclassified,ENG_01,1,3.0,0,11.0,479.0,24,24.0,1,0.45,create user profile ovpn create user profile ovpn,0
+TICKET_0289,External,Unclassified,ENG_01,2,3.0,0,11.0,479.0,30,30.0,1,0.44,power on nginx vulcan crm 2000 power on nginx vulcan crm 2000,0
+TICKET_0290,External,Unclassified,ENG_01,1,4.0,0,3.0,479.0,24,24.0,1,0.25,create user profile ovpn create user profile ovpn,0
+TICKET_0291,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,29,29.0,1,0.238,deployment kurir new pasar.id deployment kurir new pasar.id,0
+TICKET_0292,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,36,36.0,1,0.258,create 1 vm instance grafana edc nex create 1 vm instance grafana edc nex,0
+TICKET_0293,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,56,56.0,1,0.316,"install and setup grafana, prometheus, and node exporter install and setup grafana, prometheus, and node exporter",0
+TICKET_0294,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,35,35.0,1,0.255,setup and add cron job assign kurir setup and add cron job assign kurir,0
+TICKET_0295,External,Unclassified,ENG_01,2,3.0,1,3.0,479.0,42,42.0,1,0.275,update assets list cloudverse platform aws update assets list cloudverse platform aws,0
+TICKET_0296,External,Unclassified,ENG_01,3,3.0,1,3.0,479.0,33,33.0,1,0.516,support deployment fix bug bribox support deployment fix bug bribox,0
+TICKET_0297,External,Unclassified,ENG_01,3,3.0,1,3.0,479.0,32,32.0,1,0.513,check and tshoot apps crm wahana check and tshoot apps crm wahana,0
+TICKET_0298,External,Unclassified,ENG_01,2,4.0,1,6.0,479.0,20,20.0,1,0.412,check connection p2g check connection p2g,0
+TICKET_0299,External,Unclassified,ENG_01,3,4.0,1,6.0,479.0,25,26.0,1,0.696,check and tshoot pari dev check and tshoot pari prod,0
+TICKET_0300,External,Unclassified,ENG_01,2,4.0,1,6.0,479.0,22,22.0,1,0.417,mounting /run pari dev mounting /run pari dev,0
+TICKET_0301,External,Unclassified,ENG_01,2,4.0,1,6.0,479.0,37,37.0,1,0.461,support deployment kurir new pasar.id support deployment kurir new pasar.id,0
+TICKET_0302,External,Unclassified,ENG_01,2,4.0,1,6.0,479.0,16,16.0,1,0.4,provide cost aws provide cost aws,0
+TICKET_0303,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,36,36.0,1,0.258,support run cronjob api new pasar.id support run cronjob api new pasar.id,0
+TICKET_0304,External,ICD,ENG_05,2,3.0,0,11.0,99.0,56,56.0,0,0.516,copy script integrasi untuk integrasi vm tabanan dan odc copy script integrasi untuk integrasi vm tabanan dan odc,1
+TICKET_0305,External,ICD,ENG_05,2,4.0,0,3.0,99.0,83,83.0,0,0.54,test script integrasi untuk integrasi vm tabanan dan odc  di server 181 via postman test script integrasi untuk integrasi vm tabanan dan odc  di server 181 via postman,1
+TICKET_0306,External,ICD,ENG_05,2,5.0,1,4.0,99.0,65,65.0,0,0.342,"upload data software license, dan tambah field nomor izin prinsip upload data software license, dan tambah field nomor izin prinsip",0
+TICKET_0307,External,ICD,ENG_05,2,4.0,1,6.0,99.0,40,40.0,0,0.469,"listview asset hide os version, guest-os listview asset hide os version, guest-os",1
+TICKET_0308,External,ICD,ENG_05,2,5.0,1,2.0,99.0,61,61.0,0,0.33,upload kategori vmware dan openstack untuk vm tabanan dan odc upload kategori vmware dan openstack untuk vm tabanan dan odc,0
+TICKET_0309,External,ICD,ENG_05,2,3.0,0,1.0,99.0,40,40.0,0,0.269,"upload data software license, fungsi gcs upload data software license, fungsi gcs",0
+TICKET_0310,External,ICD,ENG_05,2,4.0,0,5.0,99.0,75,119.0,0,0.66,"test tarik data script integrasi untuk integrasi vm tabanan dan odc  di icd test tarik data script integrasi untuk integrasi vm tabanan dan odc  di icd, masih belum bisa, harus ada settingan lagi",1
+TICKET_0311,External,ICD,ENG_05,2,4.0,0,5.0,99.0,52,52.0,0,0.504,perbaiki script getdetailvm(memori terhitung jadi 0) perbaiki script getdetailvm(memori terhitung jadi 0),1
+TICKET_0312,External,ICD,ENG_05,3,5.0,1,3.0,99.0,26,26.0,0,0.496,perbaiki dropdown kategori perbaiki dropdown kategori,0
+TICKET_0313,External,ICD,ENG_05,2,5.0,1,3.0,99.0,72,72.0,0,0.362,perbaiki master domain kategori (data sesuaikan dengan excel dari teams) perbaiki master domain kategori (data sesuaikan dengan excel dari teams),0
+TICKET_0314,External,ICD,ENG_05,2,5.0,1,3.0,99.0,66,66.0,0,0.344,tambah attribute di database configuration untuk kategori asset vm tambah attribute di database configuration untuk kategori asset vm,0
+TICKET_0315,External,ICD,ENG_05,2,2.0,0,3.0,99.0,96,96.0,0,0.431,tambah label workorder install vm dengan attribute yang telah ditambah di database configuration tambah label workorder install vm dengan attribute yang telah ditambah di database configuration,0
+TICKET_0316,External,ICD,ENG_05,2,3.0,0,3.0,99.0,58,58.0,0,0.321,"tambah klasifikasi baru, untuk drone dan penghancur kertas tambah klasifikasi baru, untuk drone dan penghancur kertas",0
+TICKET_0317,External,ICD,ENG_05,2,5.0,1,3.0,99.0,56,56.0,0,0.316,tambah attribute asset kategori di script cxwo_installvm tambah attribute asset kategori di script cxwo_installvm,0
+TICKET_0318,External,ICD,ENG_05,1,1.0,0,3.0,99.0,43,43.0,0,0.305,reupload asset vm yang vc server nya kosong reupload asset vm yang vc server nya kosong,0
+TICKET_0319,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,26,26.0,1,0.229,update service uptime bit. update service uptime bit.,0
+TICKET_0320,External,Unclassified,ENG_01,3,2.0,0,2.0,479.0,24,24.0,1,0.49,check and tshoot vm pari check and tshoot vm pari,0
+TICKET_0321,External,Unclassified,ENG_01,2,4.0,0,5.0,479.0,42,41.0,1,0.472,check utilisasi and bandwidth vm utms  edc check utilisasi and bandwidth vm utms edc,0
+TICKET_0322,External,Unclassified,ENG_01,3,4.0,0,5.0,479.0,69,69.0,1,0.82,"check services p2g, vims, vulcan, bribox site nex (issue network cbn) check services p2g, vims, vulcan, bribox site nex (issue network cbn)",1
+TICKET_0323,External,Unclassified,ENG_01,2,4.0,0,5.0,479.0,42,42.0,1,0.475,check dan analisa bandwidth service vm edc check and analisa bandwidth service vm edc,0
+TICKET_0324,External,Unclassified,ENG_01,1,2.0,0,3.0,479.0,38,38.0,1,0.29,create user profile ovpn aris logistik create user profile ovpn aris logistik,0
+TICKET_0325,External,Unclassified,ENG_01,2,2.0,0,3.0,479.0,31,31.0,1,0.243,diskusi kegiatan iso 27001:2013 diskusi kegiatan iso 27001:2013,0
+TICKET_0326,External,Unclassified,ENG_01,1,3.0,0,3.0,479.0,35,35.0,1,0.282,create user profile ovpn ridwan pss create user profile ovpn ridwan pss,0
+TICKET_0327,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,31,31.0,1,0.243,diskusi kegiatan iso 27001:2013 diskusi kegiatan iso 27001:2013,0
+TICKET_0328,External,Unclassified,ENG_01,1,4.0,0,2.0,479.0,36,36.0,1,0.284,create user profile ovpn rahmat pmso create user profile ovpn rahmat pmso,0
+TICKET_0329,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,30,30.0,1,0.24,change nama divisi eoffice pss change nama divisi eoffice pss,0
+TICKET_0330,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,37,38.0,1,0.41,check utilisasi server vm new pasarid check utilisasi server vm new pasar.id,0
+TICKET_0331,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,43,43.0,1,0.278,diskusi and closing kegiatan iso 27001:2013 diskusi and closing kegiatan iso 27001:2013,0
+TICKET_0332,External,Unclassified,ENG_01,2,1.0,0,3.0,479.0,28,28.0,1,0.235,provide list domain localoka provide list domain localoka,0
+TICKET_0333,External,Unclassified,ENG_01,2,1.0,0,3.0,479.0,47,39.0,1,0.266,add and assign user mahdi to cloudverse account add and assign user mahdi to cloudverse,0
+TICKET_0334,External,Unclassified,ENG_01,2,2.0,0,1.0,479.0,26,26.0,1,0.229,create vm instance ec2 aws create vm instance aws ec2,0
+TICKET_0335,External,Unclassified,ENG_01,1,3.0,0,1.0,479.0,28,28.0,1,0.261,create user profile ovpn cdo create user profile ovpn cdo,0
+TICKET_0336,External,Unclassified,ENG_01,3,4.0,0,2.0,479.0,46,46.0,1,0.553,support tshoot email smtp support new pasar.id support tshoot email smtp support new pasar.id,1
+TICKET_0337,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,40,39.0,1,0.486,check connection server and network edc  check connection server and network edc,0
+TICKET_0338,External,Unclassified,ENG_01,2,5.0,1,6.0,479.0,30,30.0,1,0.44,diskusi flood edc internal bit diskusi flood edc internal bit,0
+TICKET_0339,External,Unclassified,ENG_01,1,5.0,1,6.0,479.0,21,29.0,1,0.464,create user ovpn diio create user profile ovpn diio,0
+TICKET_0340,External,Unclassified,ENG_01,3,5.0,1,6.0,479.0,31,31.0,1,0.71,create access and error log edc create access and error log edc,0
+TICKET_0341,External,Unclassified,ENG_01,2,5.0,1,6.0,479.0,35,35.0,1,0.455,setup dashboard di cc lt. 3 edc ops setup dashboard di cc lt. 3 edc ops,0
+TICKET_0342,External,Unclassified,ENG_01,2,5.0,1,6.0,479.0,44,44.0,1,0.481,update resource vm prometheus edc monitoring update resource vm prometheus edc monitoring,0
+TICKET_0343,External,Unclassified,ENG_01,2,6.0,1,1.0,479.0,26,26.0,1,0.229,create dashboard nginx edc create dashboard nginx edc,0
+TICKET_0344,External,Unclassified,ENG_01,2,7.0,1,1.0,479.0,46,27.0,1,0.232,check connection edc access request mas novell check connection edc access,0
+TICKET_0345,External,Unclassified,ENG_01,2,1.0,0,3.0,479.0,28,26.0,1,0.229,diskusi dengan cno bri edc   diskusi dengan cno bri edc,0
+TICKET_0346,External,Unclassified,ENG_01,3,1.0,0,3.0,479.0,41,41.0,1,0.612,tshoot samba network drive ej central crm tshoot samba network drive ej central crm,1
+TICKET_0347,External,Unclassified,ENG_01,2,2.0,0,1.0,479.0,32,32.0,1,0.246,register dns sub domain homespot register dns sub domain homespot,0
+TICKET_0348,External,Unclassified,ENG_01,2,3.0,0,2.0,479.0,41,41.0,1,0.272,provide list vm p2g and check utilization provide list vm p2g and check utilization,0
+TICKET_0349,External,Unclassified,ENG_01,1,3.0,0,2.0,479.0,39,39.0,1,0.293,create user profile ovpn mutia logistik create user profile ovpn mutia logistik,0
+TICKET_0350,External,Unclassified,ENG_01,1,4.0,1,2.0,479.0,44,44.0,1,0.308,create user profile ovpn runi internal audit create user profile ovpn runi internal audit,0
+TICKET_0351,External,Unclassified,ENG_01,1,4.0,1,2.0,479.0,38,38.0,1,0.29,create user profile ovpn aris logistik create user profile ovpn aris logistik,0
+TICKET_0352,External,Unclassified,ENG_01,3,5.0,1,1.0,479.0,24,24.0,1,0.49,support tshoot inet isat support tshoot inet isat,0
+TICKET_0353,External,Unclassified,ENG_01,3,7.0,1,2.0,479.0,31,31.0,1,0.51,support tshoot api new pasar.id support tshoot api new pasar.id,0
+TICKET_0354,External,Unclassified,ENG_01,2,7.0,1,2.0,479.0,44,44.0,1,0.281,diskusi dan meeting edc bri terkait flooding diskusi dan meeting edc bri terkait flooding,0
+TICKET_0355,External,Britam Mobile,ENG_05,3,5.0,1,6.0,99.0,76,41.0,0,0.739,restart nginx controller mendix yang mati dan download image ke lokal server restart nginx controller mendix yang mati,1
+TICKET_0356,External,Britam Mobile,ENG_05,2,1.0,0,3.0,99.0,45,45.0,0,0.284,"test dummy receiving po, dan wo untuk tabanan test dummy receiving po, dan wo untuk tabanan",0
+TICKET_0357,External,ICD,ENG_05,2,1.0,1,1.0,99.0,92,92.0,0,0.42,penambahan setting celldefaulttruststore untuk url vm integrasi odc dan tabanan di websphere penambahan setting celldefaulttruststore untuk url vm integrasi odc dan tabanan di websphere,0
+TICKET_0358,External,Unclassified,ENG_01,3,2.0,1,2.0,479.0,35,35.0,1,0.522,support migrasi vm cl01 to cl02 crm support migrasi vm cl01 to cl02 crm,0
+TICKET_0359,External,Unclassified,ENG_01,2,3.0,1,5.0,479.0,42,41.0,1,0.472,diskusi and sharing tigergraph monitoring  diskusi and sharing tigergraph monitoring,0
+TICKET_0360,External,Unclassified,ENG_01,3,3.0,1,5.0,479.0,28,28.0,1,0.701,support tshoot smtp homespot support tshoot smtp homespot,0
+TICKET_0361,External,Unclassified,ENG_01,2,3.0,1,5.0,479.0,41,41.0,1,0.472,deploy and assign ssl deliveryv2 pasar.id deploy and assign ssl deliveryv2 pasar.id,1
+TICKET_0362,External,Unclassified,ENG_01,2,3.0,1,5.0,479.0,38,38.0,1,0.464,create link status uptime inet gw bit. create link status uptime inet gw bit.,1
+TICKET_0363,External,Unclassified,ENG_01,3,4.0,0,4.0,479.0,35,35.0,1,0.522,support migrasi vm cl01 to cl02 crm support migrasi vm cl01 to cl02 crm,0
+TICKET_0364,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,28,28.0,1,0.381,support check vpn tunnel aws support check vpn tunnel aws,0
+TICKET_0365,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,36,36.0,1,0.258,sharing knowledge cloudverse to dpdo sharing knowledge cloudverse to dpdo,0
+TICKET_0366,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,38,37.0,1,0.261,diskusi konfig edc dengan expert nginx dikusi konfig edc dengan expert nginx,0
+TICKET_0367,External,Unclassified,ENG_01,1,5.0,1,3.0,479.0,33,33.0,1,0.276,create user profile ovpn diio mdm create user profile ovpn diio mdm,0
+TICKET_0368,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,43,36.0,1,0.258,check and monitoring established access edc check and monitoring established edc,0
+TICKET_0369,External,Unclassified,ENG_01,3,5.0,1,3.0,479.0,52,52.0,1,0.571,support team crm apps tidak bisa diakses (isat down) support team crm apps tidak bisa diakses (isat down),1
+TICKET_0370,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,25,24.0,1,0.223,assign dns briview mtb v2 assign dns briview mtbv2,0
+TICKET_0371,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,33,33.0,1,0.249,setup nginx and ssl briview mtbv2 setup nginx and ssl briview mtbv2,0
+TICKET_0372,External,Unclassified,ENG_01,3,1.0,0,4.0,479.0,31,31.0,1,0.51,support tshoot av a.n elona pss support tshoot av a.n elona pss,0
+TICKET_0373,External,Unclassified,ENG_01,3,2.0,0,4.0,479.0,30,30.0,1,0.507,support migrasi spof bri - bit support migrasi spof bri - bit,0
+TICKET_0374,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,35,35.0,1,0.255,create 1 vm instance lb edc haproxy create 1 vm instance lb edc haproxy,0
+TICKET_0375,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,35,35.0,1,0.255,setup and config lb haproxy fms edc setup and config lb haproxy fms edc,0
+TICKET_0376,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,30,30.0,1,0.24,setup haproxy stats lb fms edc setup haproxy stats lb fms edc,0
+TICKET_0377,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,36,36.0,1,0.258,koordinasi open port 7015 dengan bri koordinasi open port 7015 dengan bri,0
+TICKET_0378,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,44,44.0,1,0.281,support test logon and trx fms edc port 7015 support test logon and trx fms edc port 7015,0
+TICKET_0379,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,25,25.0,1,0.426,assogn dns microsite pari assign dns microsite pari,0
+TICKET_0380,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,41,41.0,1,0.472,setup and config nginx waf microsite pari setup and config nginx waf microsite pari,0
+TICKET_0381,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,33,33.0,1,0.449,assign and add ssl microsite pari assign and add ssl microsite pari,0
+TICKET_0382,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,38,38.0,1,0.464,create script and backup ejournals crm create script and backup ejournals crm,0
+TICKET_0383,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,34,34.0,1,0.452,migrate and compress ejournals crm migrate and compress ejournals crm,0
+TICKET_0384,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,42,42.0,1,0.275,create script and backup ejournals1053 crm create script and backup ejournals1053 crm,0
+TICKET_0385,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,38,38.0,1,0.264,migrate and compress ejournals1053 crm migrate and compress ejournals1053 crm,0
+TICKET_0386,External,Unclassified,ENG_01,2,3.0,0,2.0,479.0,42,42.0,1,0.275,create script and backup ejournals1325 crm create script and backup ejournals1325 crm,0
+TICKET_0387,External,Unclassified,ENG_01,2,3.0,0,2.0,479.0,38,38.0,1,0.264,migrate and compress ejournals1325 crm migrate and compress ejournals1325 crm,0
+TICKET_0388,External,Unclassified,ENG_01,1,4.0,0,4.0,479.0,29,29.0,1,0.264,create user profile ovpn diio create user profile ovpn diio,0
+TICKET_0389,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,35,35.0,1,0.255,support piloting edc use haproxy lb support piloting edc use haproxy lb,0
+TICKET_0390,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,42,42.0,1,0.275,create script and backup ejournals2000 crm create script and backup ejournals2000 crm,0
+TICKET_0391,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,38,38.0,1,0.264,migrate and compress ejournals2000 crm migrate and compress ejournals2000 crm,0
+TICKET_0392,External,ICD,ENG_05,2,2.0,1,2.0,99.0,84,84.0,0,0.396,"test script integrasi get detail vm tabanan(getrespvm, getdnsname, setdetail) di icd test script integrasi get detail vm tabanan(getrespvm, getdnsname, setdetail) di icd",0
+TICKET_0393,External,ICD,ENG_05,2,3.0,1,5.0,99.0,86,86.0,0,0.602,"test script integrasi get data vm host, setvmid, sethost, getcluster vm tabanan di icd test script integrasi get data vm host, setvmid, sethost, getcluster vm tabanan di icd",1
+TICKET_0394,External,ICD,ENG_05,2,1.0,0,4.0,99.0,49,56.0,0,0.316,test script integrasi getvmuuid vm tabanan di icd test script integrasi get data staging vm tabanan di icd,0
+TICKET_0395,External,ICD,ENG_05,2,3.0,0,3.0,99.0,58,58.0,0,0.321,create cron task untuk jalanin script integrasi vm tabanan create cron task untuk jalanin script integrasi vm tabanan,0
+TICKET_0396,External,Network,,3,,0,,,24,61.0,0,0.523,migrasi jalur bit - bri  memindahkan jalur bit - bri dari jalur existing ke jalur baru,1
+TICKET_0397,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,38,38.0,1,0.264,create script and backup mahitachi crm create script and backup mahitachi crm,0
+TICKET_0398,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,34,34.0,1,0.252,migrate and compress mahitachi crm migrate and compress mahitachi crm,0
+TICKET_0399,External,Unclassified,ENG_01,1,6.0,1,1.0,479.0,30,29.0,1,0.264,create user profile ovpn dpss  create user profile ovpn dpss,0
+TICKET_0400,External,Unclassified,ENG_01,2,1.0,0,1.0,479.0,27,27.0,1,0.232,support piloting 20 tid edc support piloting 20 tid edc,0
+TICKET_0401,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,38,38.0,1,0.464,"open port p2g web & tms port 802, 8022 open port p2g web & tms port 802, 8022",0
+TICKET_0402,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,35,35.0,1,0.455,diskusi bare metal dell and fujitsu diskusi bare metal dell and fujitsu,0
+TICKET_0403,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,31,40.0,1,0.469,support p2g testing connection  supoort & diskusi p2g testing connection,0
+TICKET_0404,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,28,28.0,1,0.435,tarik data to hdd ej log crm tarik data to hdd ej log crm,0
+TICKET_0405,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,41,41.0,1,0.472,"open port and config nginx port 802, 8022 open port and config nginx port 802, 8022",0
+TICKET_0406,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,28,28.0,1,0.435,add billing account aws dpdo add billing account aws dpdo,0
+TICKET_0407,External,Unclassified,ENG_01,2,2.0,0,7.0,479.0,31,31.0,1,0.443,disscuss new feature cloudverse disscuss new feature cloudverse,0
+TICKET_0408,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,28,28.0,1,0.235,setup limit upload p2g nginx setup limit upload p2g nginx,0
+TICKET_0409,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,25,25.0,1,0.226,assign dns bit-tmsedc p2g assign dns bit-tmsedc p2g,0
+TICKET_0410,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,38,38.0,1,0.264,setup nginx and add ssl bit-tmsedc p2g setup nginx and add ssl bit-tmsedc p2g,0
+TICKET_0411,External,Unclassified,ENG_01,1,4.0,0,1.0,479.0,29,29.0,1,0.264,create user profile ovpn alwi create user profile ovpn alwi,0
+TICKET_0412,External,Unclassified,ENG_01,2,1.0,1,2.0,479.0,29,28.0,1,0.235,setup service nginx utms p2g  setup service nginx utms p2g,0
+TICKET_0413,External,Unclassified,ENG_01,2,1.0,1,2.0,479.0,32,32.0,1,0.246,assign dns utms p2g and homespot assign dns utms p2g and homespot,0
+TICKET_0414,External,Unclassified,ENG_01,2,2.0,1,3.0,479.0,37,37.0,1,0.261,setup nginx and assign dns deliveryv2 setup nginx and assign dns deliveryv2,0
+TICKET_0415,External,Unclassified,ENG_01,2,2.0,1,3.0,479.0,39,39.0,1,0.266,assign dns briapi.bitcorp.id via cpanel assign dns briapi.bitcorp.id via cpanel,0
+TICKET_0416,External,Unclassified,ENG_01,2,2.0,1,3.0,479.0,38,38.0,1,0.264,support create dashboard monitoring tg support create dashboard monitoring tg,0
+TICKET_0417,External,Unclassified,ENG_01,2,3.0,1,2.0,479.0,32,32.0,1,0.246,support update aplikasi p2g v2.0 support update aplikasi p2g v2.0,0
+TICKET_0418,External,Unclassified,ENG_01,2,3.0,1,2.0,479.0,25,25.0,1,0.226,extend ssl localoka.co.id extend ssl localoka.co.id,0
+TICKET_0419,External,Unclassified,ENG_01,3,4.0,1,1.0,479.0,24,24.0,1,0.49,diskusi tms edc download diskusi tms edc download,0
+TICKET_0420,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,40,36.0,1,0.258,setup direct dns mtb ticket crm v1 to v2 setup direct dns mtb ticket v1 to v2,0
+TICKET_0421,External,Unclassified,ENG_01,1,5.0,1,2.0,479.0,28,28.0,1,0.261,create user profile ovpn pss create user profile ovpn pss,0
+TICKET_0422,External,Unclassified,ENG_01,2,1.0,0,2.0,479.0,33,33.0,1,0.249,create user iam profile aws mahdi create user iam profile aws mahdi,0
+TICKET_0423,External,Unclassified,ENG_01,2,1.0,0,2.0,479.0,39,39.0,1,0.266,setup billing and grant access to mahdi setup billing and grant access to mahdi,0
+TICKET_0424,External,Unclassified,ENG_01,3,2.0,0,2.0,479.0,41,41.0,1,0.539,support tshoot homespot upload image fail support tshoot homespot upload image fail,1
+TICKET_0425,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,36,36.0,1,0.258,sharing knowledge haproxy edc to pss sharing knowledge haproxy edc to pss,0
+TICKET_0426,External,Unclassified,ENG_01,3,3.0,0,3.0,479.0,36,36.0,1,0.524,support migrasi 5000 tid edc haproxy support migrasi 5000 tid edc haproxy,0
+TICKET_0427,External,Unclassified,ENG_01,3,3.0,0,3.0,479.0,36,36.0,1,0.524,diskusi migrasi haproxy edc prod pss diskusi migrasi haproxy edc prod pss,0
+TICKET_0428,External,Unclassified,ENG_01,1,4.0,0,4.0,479.0,35,35.0,1,0.282,create user profile ovpn pss sintya create user profile ovpn pss sintya,0
+TICKET_0429,External,Unclassified,ENG_01,3,4.0,0,4.0,479.0,40,40.0,1,0.389,diskusi prepare replace isat to cbn pmso diskusi prepare replace isat to cbn pmso,0
+TICKET_0430,External,Unclassified,ENG_01,1,4.0,0,4.0,479.0,36,36.0,1,0.284,create user profile ovpn pmso hudori create user profile ovpn pmso hudori,0
+TICKET_0431,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,35,35.0,1,0.255,load test haproxy 120rb connections load test haproxy 120rb connections,0
+TICKET_0432,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,35,35.0,1,0.402,create vm instance ovpn-cbn-gti cl2 create vm instance ovpn-cbn-gti cl2,0
+TICKET_0433,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,31,31.0,1,0.243,setup nginx + ssl mtbv2 cbn gti setup nginx + ssl mtbv2 cbn gti,0
+TICKET_0434,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,42,42.0,1,0.275,create user & assign access cloudverse aws create user & assign access cloudverse aws,0
+TICKET_0435,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,31,31.0,1,0.39,setup dns resolver ovpn-cbn-gti setup dns resolver ovpn-cbn-gti,0
+TICKET_0436,External,Unclassified,ENG_01,2,3.0,0,3.0,479.0,32,32.0,1,0.393,setup and config openvpn cbn gti setup and config openvpn cbn gti,0
+TICKET_0437,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,38,38.0,1,0.41,check and test connection ovpn cbn gti check and test connection ovpn cbn gti,0
+TICKET_0438,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,45,45.0,1,0.43,setup and config dns server local bitcorp.int setup and config dns server local bitcorp.int,0
+TICKET_0439,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,36,36.0,1,0.258,add sub-domain vulcanbix.bitcorp.int add sub-domain vulcanbix.bitcorp.int,0
+TICKET_0440,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,32,32.0,1,0.593,create dashboard monitoring ovpn create dashboard monitoring ovpn,0
+TICKET_0441,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,36,36.0,1,0.604,setup ovpn metrics prometheus docker setup ovpn metrics prometheus docker,1
+TICKET_0442,External,Unclassified,ENG_01,3,5.0,1,5.0,479.0,33,33.0,1,0.569,propagasi replace isat to cbn gti propagasi replace isat to cbn gti,0
+TICKET_0443,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,38,38.0,1,0.61,create user ovpn profile cbn team pmso create user ovpn profile cbn team pmso,0
+TICKET_0444,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,42,42.0,1,0.422,"create user ovpn dtms. pmso, dpss, hitachi create user ovpn dtms, pmso, dpss, hitachi",0
+TICKET_0445,External,Unclassified,ENG_01,3,1.0,0,4.0,479.0,35,35.0,1,0.595,tshoot ovpn access eoffice internal tshoot ovpn access eoffice internal,0
+TICKET_0446,External,Unclassified,ENG_01,1,2.0,0,1.0,479.0,39,39.0,1,0.293,"create user profile ovpn dcss, pmso, hc create user profile ovpn dcss, pmso, hc",0
+TICKET_0447,External,Unclassified,ENG_01,2,3.0,0,4.0,479.0,35,35.0,1,0.255,support setup db slave new pasar.id support setup db slave new pasar.id,0
+TICKET_0448,External,Unclassified,ENG_01,1,3.0,0,4.0,479.0,39,39.0,1,0.293,"create user profile ovpn team pss, sdrd create user profile ovpn team pss, sdrd",0
+TICKET_0449,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,37,37.0,1,0.261,setup nginx set allow upload p2g apps setup nginx set allow upload p2g apps,0
+TICKET_0450,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,47,47.0,1,0.29,export import db new pasar.id and set replicate export import db new pasar.id and set replicate,0
+TICKET_0451,External,Unclassified,ENG_01,2,4.0,0,4.0,479.0,41,41.0,1,0.272,reboot and terminate ec2 aws new pasar.id reboot and terminate ec2 aws new pasar.id,0
+TICKET_0452,External,Unclassified,ENG_01,1,5.0,1,1.0,479.0,46,46.0,1,0.313,create user profile ovpn a.n astrid & team pss create user profile ovpn a.n astrid & team pss,0
+TICKET_0453,External,Unclassified,ENG_01,1,1.0,1,3.0,479.0,40,40.0,1,0.296,create user profile ovpn a.n dadang pmso create user profile ovpn a.n dadang pmso,0
+TICKET_0454,External,Unclassified,ENG_01,2,1.0,1,3.0,479.0,42,41.0,1,0.272,inject licensed win srv 2019 ivosatkom crm inject licensed win srv2019 ivosatkom crm,0
+TICKET_0455,External,Unclassified,ENG_01,1,2.0,1,1.0,479.0,39,39.0,1,0.293,"create user profile ovpn team pss, pmso create user profile ovpn team pss, pmso",0
+TICKET_0456,External,Unclassified,ENG_01,1,3.0,1,1.0,479.0,35,35.0,1,0.282,create user profile ovpn gugun sdrd create user profile ovpn gugun sdrd,0
+TICKET_0457,External,Unclassified,ENG_01,2,4.0,1,1.0,479.0,33,33.0,1,0.249,filter rule waf image base64 pari filter rule waf image base64 pari,0
+TICKET_0458,External,Unclassified,ENG_01,2,5.0,1,1.0,479.0,44,44.0,1,0.281,sharing session nginx haproxy to team cc pss sharing session nginx haproxy to team cc pss,0
+TICKET_0459,External,Unclassified,ENG_01,2,6.0,1,1.0,479.0,27,26.0,1,0.229,monitoring support edc bri  monitoring support edc bri,0
+TICKET_0460,External,Network,ENG_02,2,1.0,0,4.0,8.0,42,43.0,0,0.351,prevent maintaince golden unit network bri collect log dan cleaning hardware perangkat,0
+TICKET_0461,External,Network,ENG_02,3,5.0,1,5.0,8.0,26,53.0,0,0.7,migrasi isp indosat ke cbn action remove uplink isat 1 dan add uplink cbn to vr1,1
+TICKET_0462,External,Network,ENG_09,2,1.0,0,4.0,5.0,41,43.0,0,0.278,prevent maintaince golden unit cisco & f5 collect log dan cleaning hardware perangkat,0
+TICKET_0463,External,Network,ENG_09,2,3.0,0,4.0,5.0,34,43.0,0,0.278,prevent maintaince switch cloudera collect log dan cleaning hardware perangkat,0
+TICKET_0464,External,Network,ENG_09,2,1.0,1,3.0,5.0,40,43.0,0,0.278,prevent maintaince switch archive rubrik collect log dan cleaning hardware perangkat,0
+TICKET_0465,External,Network,ENG_09,2,4.0,0,4.0,5.0,31,43.0,0,0.278,prevent maintaince workload gti collect log dan cleaning hardware perangkat,0
+TICKET_0466,External,Network,ENG_09,2,4.0,0,4.0,5.0,29,43.0,0,0.278,prevent maintaince f5 dmz gti collect log dan cleaning hardware perangkat,0
+TICKET_0467,External,Unclassified,ENG_01,2,1.0,0,7.0,479.0,46,46.0,1,0.487,setup and config nginx deliveryv2 new pasar.id setup and config nginx deliveryv2 new pasar.id,1
+TICKET_0468,External,Unclassified,ENG_01,2,1.0,0,7.0,479.0,35,44.0,1,0.481,clear log cookie db support bitcorp truncate and clear trash log support bitcorp,0
+TICKET_0469,External,Unclassified,ENG_01,3,1.0,0,7.0,479.0,39,39.0,1,0.733,support tshoot access web visionet pmso support tshoot access web visionet pmso,0
+TICKET_0470,External,Unclassified,ENG_01,3,1.0,0,7.0,479.0,41,36.0,1,0.651,tshoot access docker container perfex crm restart perfex crm docker container ,0
+TICKET_0471,External,Unclassified,ENG_01,2,1.0,0,7.0,479.0,43,46.0,1,0.487,add metric node exporter eoffice and compro setup and add metric node exp eoffice & compro,0
+TICKET_0472,External,Unclassified,ENG_01,2,1.0,0,7.0,479.0,39,39.0,1,0.613,setup monitoring utilize server eoffice setup monitoring utilize server eoffice,0
+TICKET_0473,External,Unclassified,ENG_01,2,1.0,0,7.0,479.0,26,37.0,1,0.461,support monitoring edc bri support pengawalan monitoring edc bri,0
+TICKET_0474,External,Unclassified,ENG_01,2,2.0,0,6.0,479.0,38,37.0,1,0.461,setup monitoring edc at pc cc ops edc  setup edc monitoring at pc cc ops edc,1
+TICKET_0475,External,Unclassified,ENG_01,1,2.0,0,6.0,479.0,33,33.0,1,0.476,create user profile ovpn leo pmso create user profile ovpn leo pmso,0
+TICKET_0476,External,Unclassified,ENG_01,3,2.0,0,6.0,479.0,34,34.0,1,0.719,tshoot eoffice access mas adhi pss tshoot eoffice access mas adhi pss,0
+TICKET_0477,External,Unclassified,ENG_01,2,2.0,0,6.0,479.0,47,44.0,1,0.481,clear json log docker container support bitcorp clear json log and restart container support,1
+TICKET_0478,External,Unclassified,ENG_01,1,2.0,0,6.0,479.0,37,37.0,1,0.487,create user profile ovpn septian diio create user profile ovpn septian diio,0
+TICKET_0479,External,Unclassified,ENG_01,2,2.0,0,6.0,479.0,38,40.0,1,0.469,meeting koordinasi rafi dengan fst bri meeting kesiapan rafi edc dengan fst bri,1
+TICKET_0480,External,Unclassified,ENG_01,1,3.0,0,3.0,479.0,33,33.0,1,0.276,create user profile ovpn pss rini create user profile ovpn pss rini,0
+TICKET_0481,External,Unclassified,ENG_01,3,3.0,0,3.0,479.0,22,34.0,1,0.519,troubleshoot issue p2g troubleshoot mencari rca issue p2g,0
+TICKET_0482,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,31,43.0,1,0.278,assign ssl payment new pasar.id request and assign ssl payment new pasar.id,0
+TICKET_0483,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,26,37.0,1,0.261,support monitoring edc bri support pengawalan monitoring edc bri,0
+TICKET_0484,External,Unclassified,ENG_01,3,5.0,1,3.0,479.0,41,41.0,1,0.539,troubleshoot p2g pull report data timeout troubleshoot p2g pull report data timeout,1
+TICKET_0485,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,38,42.0,1,0.275,upgrade version gitlab docker crm 2000 upgrade version gitlab scm docker crm 2000,0
+TICKET_0486,External,Unclassified,ENG_01,2,5.0,1,3.0,479.0,37,37.0,1,0.261,store log haproxy log rotate mode tcp store log haproxy log rotate mode tcp,0
+TICKET_0487,External,Unclassified,ENG_01,3,6.0,1,1.0,479.0,22,22.0,1,0.484,tshoot and analyze p2g tshoot and analyze p2g,0
+TICKET_0488,External,Unclassified,ENG_01,1,2.0,0,4.0,479.0,44,44.0,1,0.308,create user profile ovpn pmso rochim & hasan create user profile ovpn pmso rochim & hasan,0
+TICKET_0489,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,33,41.0,1,0.272,reboot instance state pasarid aws reboot instance state console pasarid aws,0
+TICKET_0490,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,35,35.0,1,0.255,update & deploy api vulcan crm 2000 update & deploy api vulcan crm 2000,0
+TICKET_0491,External,Unclassified,ENG_01,2,2.0,0,4.0,479.0,39,39.0,1,0.266,deploy and setup dashboard new pasar.id deploy and setup dashboard new pasar.id,0
+TICKET_0492,External,Unclassified,ENG_01,3,4.0,0,2.0,479.0,17,17.0,1,0.323,discuss issue p2g discuss issue p2g,0
+TICKET_0493,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,27,33.0,1,0.249,add log tcp capture haproxy setup add log tcp capture haproxy,0
+TICKET_0494,External,Unclassified,ENG_01,1,5.0,1,3.0,479.0,30,30.0,1,0.267,create user profile ovpn nisha create user profile ovpn nisha,0
+TICKET_0495,External,Unclassified,ENG_01,2,6.0,1,4.0,479.0,41,42.0,1,0.275,create 3 instance vm ec2 aws new pasar.id create 3 instances vm ec2 aws new pasar.id,0
+TICKET_0496,External,Unclassified,ENG_01,2,6.0,1,4.0,479.0,29,39.0,1,0.266,install redis vulcan crm 2000 install redis for cache vulcan crm 2000,0
+TICKET_0497,External,Unclassified,ENG_01,2,6.0,1,4.0,479.0,45,45.0,1,0.284,setup & add monitoring vm and db new pasar.id setup & add monitoring vm and db new pasar.id,0
+TICKET_0498,External,Unclassified,ENG_01,1,1.0,0,1.0,479.0,44,44.0,1,0.308,create user profile ovpn dirut & carragh bit create user profile ovpn dirut & carragh bit,0
+TICKET_0499,External,Unclassified,ENG_02,3,3.0,0,3.0,8.0,41,37.0,1,0.527,troubleshoot intermitten link network nex clear nat session di router cisco isr,0
+TICKET_0500,External,Unclassified,ENG_02,3,5.0,1,3.0,8.0,50,88.0,1,0.675,migrasi switch sl01-02 ke mg-as7-8site odc sentul  migrasi physical link dari perangkat switch sl01 dan slo2 ke perangkat mg-as7 dan mg-as8,1
+TICKET_0501,External,Storage,ENG_10,2,2.0,0,2.0,34.0,69,103.0,0,0.451,"delete unused filesystem /home partition on each host bit-gti-nx-cl01 - open ticket
+- delete unused filesystem on /home partition 
+- all host used filesystem /home under 70%",0
+TICKET_0502,External,Storage,ENG_10,2,3.0,0,4.0,34.0,166,19.0,0,0.209,"install 4 lic key  4 license yg belum terinstall yaitu : cont access journal 3dc, compatible flashcopy se,high availability,compresion deduplication pada xp8 tier 2cd install license key",0
+TICKET_0503,External,Storage,ENG_10,3,6.0,1,4.0,34.0,60,62.0,0,0.6,"c-tract cant communicate with irs server on xp8 xp8 tier 2cd - validate truststore file
+- check open firewall and port 7906",1
+TICKET_0504,External,ICD,ENG_05,2,5.0,1,3.0,99.0,24,34.0,0,0.252,"hide view ip address, os hide view ip address dan os di icd",0
+TICKET_0505,External,Britam Mobile,ENG_05,2,2.0,0,2.0,99.0,32,50.0,0,0.298,fixing apk mendix yang load lama cleansing data yang gak terpakai di beberapa table,0
+TICKET_0506,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,43,43.0,1,0.278,support migrate briapi payment new pasar.id support migrate briapi payment new pasar.id,0
+TICKET_0507,External,Unclassified,ENG_01,3,3.0,0,8.0,479.0,46,46.0,1,0.827,tshoot & create user profile ovpn novi finance tshoot & create user profile ovpn novi finance,1
+TICKET_0508,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,38,38.0,1,0.464,reset passwd support bit. team pms-lan reset passwd support bit. team pms-lan,0
+TICKET_0509,External,Unclassified,ENG_01,1,3.0,0,8.0,479.0,35,35.0,1,0.482,create user profile ovpn salma dpdo create user profile ovpn salma dpdo,0
+TICKET_0510,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,46,46.0,1,0.487,add department dc facility support ticket bit. add department dc facility support ticket bit.,0
+TICKET_0511,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,47,47.0,1,0.49,add help topic hpe cloudera support ticket bit. add help topic hpe cloudera support ticket bit.,0
+TICKET_0512,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,44,44.0,1,0.481,update user guide support (add kelola tasks) update user guide support (add kelola tasks),0
+TICKET_0513,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,52,52.0,1,0.504,"register user agent support (fikri, randika, syukri) register user agent support (fikri, randika, syukri)",0
+TICKET_0514,External,Unclassified,ENG_01,2,3.0,0,8.0,479.0,38,38.0,1,0.464,add role iam billing aws to gugun sdrd add role iam billing aws to gugun sdrd,0
+TICKET_0515,External,Unclassified,ENG_01,3,4.0,1,3.0,479.0,45,45.0,1,0.55,tshoot and fix smtp gmail support ticket bit. tshoot and fix smtp gmail support ticket bit.,1
+TICKET_0516,External,Unclassified,ENG_01,2,4.0,1,3.0,479.0,36,36.0,1,0.258,add user billing gugun to cloudverse add user billing gugun to cloudverse,0
+TICKET_0517,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,29,29.0,1,0.438,add users support ticket bit. add users support ticket bit.,0
+TICKET_0518,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,51,51.0,1,0.501,"add organizations atl ts4500, odc, drc, vpc fujitsu add organizations atl ts4500, odc, drc, vpc fujitsu",0
+TICKET_0519,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,50,50.0,1,0.498,"support install config nginx, mysql, php, node npm support install config nginx, mysql, php, node npm",0
+TICKET_0520,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,46,46.0,1,0.487,send reset passwd email to user support ticket send reset passwd email to user support ticket,1
+TICKET_0521,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,54,54.0,1,0.51,pull ir 2023 and create sample (task & ticket) for iso pull ir 2023 and create sample (task & ticket) for iso,0
+TICKET_0522,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,47,47.0,1,0.49,install and setup trend micro and updated agent install and setup trend micro and updated agent,1
+TICKET_0523,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,31,31.0,1,0.59,create user matrix ovpn for iso create user matrix ovpn for iso,0
+TICKET_0524,External,Unclassified,ENG_01,2,5.0,1,8.0,479.0,40,38.0,1,0.464,pentest & va and create document for iso pentest va and create document for iso,1
+TICKET_0525,External,Unclassified,ENG_01,2,7.0,1,1.0,479.0,35,35.0,1,0.255,create user ops support ticket bit. create user ops support ticket bit.,0
+TICKET_0526,External,Unclassified,ENG_01,2,1.0,1,3.0,479.0,31,31.0,1,0.243,generate billing aws april 2024 generate billing aws april 2024,0
+TICKET_0527,External,Unclassified,ENG_01,2,1.0,1,3.0,479.0,46,46.0,1,0.287,create user & register agent engineer yudi ibm create user & register agent engineer yudi ibm,0
+TICKET_0528,External,Unclassified,ENG_01,1,1.0,1,3.0,479.0,36,36.0,1,0.284,create user profile ovpn legal aulya create user profile ovpn legal aulya,0
+TICKET_0529,External,Unclassified,ENG_01,1,4.0,0,2.0,479.0,33,33.0,1,0.276,create user profile ovpn edc wira create user profile ovpn edc wira,0
+TICKET_0530,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,38,38.0,1,0.264,pull ir april 2024 support ticket bit. pull ir april 2024 support ticket bit.,0
+TICKET_0531,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,46,46.0,1,0.487,open port 3013 and config nginx pari corporate open port 3013 and config nginx pari corporate,1
+TICKET_0532,External,Unclassified,ENG_01,3,1.0,0,5.0,479.0,34,34.0,1,0.719,finding issue & tshoot vm utms edc finding issue & tshoot vm utms edc,0
+TICKET_0533,External,Unclassified,ENG_01,2,2.0,0,6.0,479.0,38,38.0,1,0.61,add organizations server hpe a.n munir add organizations server hpe a.n munir,0
+TICKET_0534,External,Unclassified,ENG_01,1,2.0,0,6.0,479.0,41,41.0,1,0.499,create user profile ovpn edm febri & rara create user profile ovpn edm febri & rara,0
+TICKET_0535,External,Unclassified,ENG_01,1,2.0,0,6.0,479.0,35,35.0,1,0.482,create user profile ovpn dpdo mahdi create user profile ovpn dpdo mahdi,0
+TICKET_0536,External,Unclassified,ENG_01,2,2.0,0,6.0,479.0,37,37.0,1,0.461,send reset email passwd agent ridhwan send reset email passwd agent ridhwan,0
+TICKET_0537,External,Unclassified,ENG_01,1,3.0,0,2.0,479.0,35,35.0,1,0.282,create user profile ovpn dtms rafid create user profile ovpn dtms rafid,0
+TICKET_0538,External,Storage,ENG_10,2,7.0,1,1.0,34.0,53,53.0,0,0.307,create 36 lun for vdbench testing on xp8 tier 2c & 2d create 36 lun for vdbench testing on xp8 tier 2c & 2d,0
+TICKET_0539,External,Unclassified,ENG_10,3,1.0,0,5.0,34.0,46,46.0,1,0.753,create vm utms-reporting on nutanix cluster 02 create vm utms-reporting on nutanix cluster 02,1
+TICKET_0540,External,Storage,ENG_10,2,2.0,0,6.0,34.0,53,53.0,0,0.507,create 36 lun for vdbench testing on xp8 tier 2c & 2d create 36 lun for vdbench testing on xp8 tier 2c & 2d,1
+TICKET_0541,External,Network,ENG_02,2,2.0,0,6.0,8.0,55,68.0,0,0.55,integrasi isn - spine site odc & tbn (project workload) integrasi perangkat multisite isn - spine - orchestor site odc & tbn,1
+TICKET_0542,External,Network,ENG_02,2,4.0,0,3.0,8.0,56,49.0,0,0.442,design network vdi phase 2 (project leafswitch security) integrasi network antara aci dengan nxst security,0
+TICKET_0543,External,ICD,ENG_05,2,4.0,1,3.0,99.0,103,139.0,0,0.46,perbaikan script inventory usage yang tidak create item dari wo yang berhasil dibuat untuk site tabanan perbaikan script inventory usage(cxwo_installreceipt_createheadinv)  yang tidak create item dari wo yang berhasil dibuat untuk site tabanan,1
+TICKET_0544,External,ICD,ENG_05,1,1.0,0,5.0,99.0,45,45.0,0,0.51,"upload asset mainframe, storage, tape library upload asset mainframe, storage, tape library",0
+TICKET_0545,External,Britam Mobile,ENG_05,3,1.0,0,5.0,99.0,50,50.0,0,0.765,troubleshoot asset gak ter create rotating itemnya troubleshoot asset gak ter create rotating itemnya,1
+TICKET_0546,External,Unclassified,ENG_10,2,3.0,0,2.0,34.0,45,45.0,1,0.284,create 6 vm perangkat pendukung crm pada cl01 create 6 vm perangkat pendukung crm pada cl01,0
+TICKET_0547,External,Server,ENG_10,2,1.0,0,3.0,34.0,61,61.0,0,0.33,change ip vm utms_reporting from 192.168.4.20 to 192.168.4.50 change ip vm utms_reporting from 192.168.4.20 to 192.168.4.50,0
+TICKET_0548,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,53,53.0,1,0.307,"inisiasi install & setup laravel, nginx, mysql, redis inisiasi install & setup laravel, nginx, mysql, redis",0
+TICKET_0549,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,40,40.0,1,0.269,inisiasi install & setup firebase google inisiasi install & setup firebase google,0
+TICKET_0550,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,42,42.0,1,0.275,inisiasi install & setup minio and grafana inisiasi install & setup minio and grafana,0
+TICKET_0551,External,Unclassified,ENG_01,2,5.0,1,1.0,479.0,50,50.0,1,0.445,check koneksi dan utilisasi server bit portal utms check koneksi dan utilisasi server bit portal utms,0
+TICKET_0552,External,Unclassified,ENG_01,2,6.0,1,1.0,479.0,37,37.0,1,0.261,restart vm node 1 dan node 2 utms edc restart vm node 1 dan node 2 utms edc,0
+TICKET_0553,External,Unclassified,ENG_01,3,1.0,0,3.0,479.0,39,39.0,1,0.533,tshoot and check ip addr vm utms report tshoot and check ip addr vm utms report,0
+TICKET_0554,External,Unclassified,ENG_01,1,1.0,0,3.0,479.0,39,39.0,1,0.293,create user profile ovpn dpdo ops nasif create user profile ovpn dpdo ops nasif,0
+TICKET_0555,External,Unclassified,ENG_01,2,2.0,0,1.0,479.0,51,51.0,1,0.301,check apps site nex after activate backup link inet check apps site nex after activate backup link inet,0
+TICKET_0556,External,Unclassified,ENG_01,3,3.0,0,2.0,479.0,39,39.0,1,0.606,check & troubleshoot ovpn and apps vims check & troubleshoot ovpn and apps vims,0
+TICKET_0557,External,Unclassified,ENG_01,2,4.0,0,2.0,479.0,49,49.0,1,0.295,assign dns briapigateway.bitcorp.id to bitcorp.id assign dns briapigateway.bitcorp.id to bitcorp.id,0
+TICKET_0558,External,Unclassified,ENG_01,3,5.0,1,5.0,479.0,50,50.0,1,0.838,open firewall port 8702 api p2g edc windows server open firewall port 8702 api p2g edc windows server,1
+TICKET_0559,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,47,47.0,1,0.49,assign dns dev-api-edc.bitcorp.id to bitcorp.id assign dns dev-api-edc.bitcorp.id to bitcorp.id,1
+TICKET_0560,External,Unclassified,ENG_01,2,5.0,1,5.0,479.0,45,45.0,1,0.63,setup nginx access api dev p2g windows server setup nginx access api dev p2g windows server,0
+TICKET_0561,External,Unclassified,ENG_01,1,5.0,1,5.0,479.0,36,36.0,1,0.484,create user profile ovpn aws andhika create user profile ovpn aws andhika,0
+TICKET_0562,External,Unclassified,ENG_01,2,1.0,0,2.0,479.0,50,50.0,1,0.298,create user & send activation email capam & av edr create user & send activation email capam & av edr,0
+TICKET_0563,External,ICD,ENG_05,1,5.0,1,5.0,99.0,20,20.0,0,0.438,upload asset network upload asset network,0
+TICKET_0564,External,ICD,ENG_05,2,1.0,0,2.0,99.0,42,42.0,0,0.275,align manufacture & vendor di header asset align manufacture & vendor di header asset,0
+TICKET_0565,External,Server,ENG_10,2,3.0,0,2.0,34.0,35,35.0,0,0.255,power off and delete 20 vm on cl01  power off and delete 20 vm on cl01 ,0
+TICKET_0566,External,Server,ENG_10,2,4.0,0,2.0,34.0,33,33.0,0,0.249,power off and delete 8 vm on cl01 power off and delete 8 vm on cl01,0
+TICKET_0567,External,Server,ENG_10,2,2.0,0,1.0,34.0,61,46.0,0,0.287,create vm ubuntu 20  for dev veristore on cl02 (192.169.4.36) create vm dev veristore on cl02 (192.169.4.36),0
+TICKET_0568,External,Unclassified,ENG_01,2,3.0,0,1.0,479.0,47,47.0,1,0.29,power off vm dev veristore brilink cl02 (4.121) power off vm dev veristore brilink cl02 (4.121),0
+TICKET_0569,External,Unclassified,ENG_01,2,4.0,0,1.0,479.0,38,38.0,1,0.264,support setup inisiasi ci/cd pm-cm crm support setup inisiasi ci/cd pm-cm crm,0
+TICKET_0570,External,Unclassified,ENG_01,1,1.0,1,1.0,479.0,46,46.0,1,0.313,create user profile ovpn rini nurhaeny pso edc create user profile ovpn rini nurhaeny pso edc,0
+TICKET_0571,External,Unclassified,ENG_01,3,2.0,1,1.0,479.0,50,50.0,1,0.565,check connection & utilization migrasi haproxy edc check connection & utilization migrasi haproxy edc,1
+TICKET_0572,External,Unclassified,ENG_01,2,3.0,1,2.0,479.0,37,37.0,1,0.261,check load peak utms and haproxy edc  check load peak utms and haproxy edc ,0
+TICKET_0573,External,Unclassified,ENG_01,3,3.0,1,2.0,479.0,33,33.0,1,0.589,tshoot akses ssh server pm-cm crm tshoot akses ssh server pm-cm crm,0
+TICKET_0574,External,Unclassified,ENG_01,2,4.0,1,5.0,479.0,50,50.0,1,0.498,assign dns local grafana crm vulcanbix.bitcorp.int assign dns local grafana crm vulcanbix.bitcorp.int,0
+TICKET_0575,External,Unclassified,ENG_01,1,4.0,1,5.0,479.0,46,46.0,1,0.513,create user profile ovpn dpdo developer fauzan create user profile ovpn dpdo developer fauzan,0
+TICKET_0576,External,Unclassified,ENG_01,2,4.0,1,5.0,479.0,42,42.0,1,0.475,generate ssh private key vm aplikasi pm-cm generate ssh private key vm aplikasi pm-cm,0
+TICKET_0577,External,Unclassified,ENG_01,2,4.0,1,5.0,479.0,52,52.0,1,0.504,tune up limit session 200 to 300 connections haproxy tune up limit session 200 to 300 connections haproxy,0
+TICKET_0578,External,Unclassified,ENG_01,2,4.0,1,5.0,479.0,48,48.0,1,0.492,setup and config inac 7030 & set timeout haproxy setup and config inac 7030 & set timeout haproxy,1
+TICKET_0579,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,47,47.0,1,0.29,create user email support.gws expert bitcorp.id create user email support.gws expert bitcorp.id,0
+TICKET_0580,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,45,45.0,1,0.284,create dashboard monitoring nginx amplify edc create dashboard monitoring nginx amplify edc,0
+TICKET_0581,External,Unclassified,ENG_01,1,5.0,1,4.0,479.0,51,51.0,1,0.328,create user profile ovpn dpdo developer teams pm-cm create user profile ovpn dpdo developer teams pm-cm,0
+TICKET_0582,External,Unclassified,ENG_01,2,5.0,1,4.0,479.0,54,54.0,1,0.31,setup and config port 5708 inac dev to bri connections setup and config port 5708 inac dev to bri connections,0
+TICKET_0583,External,Unclassified,ENG_01,2,1.0,0,2.0,479.0,37,37.0,1,0.407,reboot vm server dev new pasar.id gcp reboot vm server dev new pasar.id gcp,0
+TICKET_0584,External,Unclassified,ENG_01,1,2.0,0,2.0,479.0,40,40.0,1,0.296,create user profile ovpn dirut & finance create user profile ovpn dirut & finance,0
+TICKET_0585,External,Unclassified,ENG_01,2,3.0,0,2.0,479.0,41,41.0,1,0.272,assign dns apps.bitcorp.id perfex erp crm assign dns apps.bitcorp.id perfex erp crm,0
+TICKET_0586,External,Unclassified,ENG_01,2,4.0,0,3.0,479.0,41,41.0,1,0.272,create script and backup data ej crm 2023 create script and backup data ej crm 2023,0
+TICKET_0587,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,55,55.0,1,0.313,confirm and verif to delete backup ej crm 2023 after hk confirm and verif to delete backup ej crm 2023 after hk,0
+TICKET_0588,External,Unclassified,ENG_01,1,1.0,0,2.0,479.0,38,38.0,1,0.29,create user profile ovpn dpdo and pmso create user profile ovpn dpdo and pmso,0
+TICKET_0589,External,Server,ENG_10,3,7.0,1,1.0,34.0,39,46.0,0,0.48,"deleting maildrop files on nutanix cl02 delete maildrop on cvm, reduced from 76% to 9%",1
+TICKET_0590,External,Unclassified,ENG_01,2,3.0,0,2.0,479.0,34,34.0,1,0.399,restart vm server dev new pasar.id restart vm server dev new pasar.id,0
+TICKET_0591,External,Unclassified,ENG_01,3,5.0,1,2.0,479.0,51,51.0,1,0.641,"tshoot ovpn internal service up, ovpn not connected tshoot ovpn internal service up, ovpn not connected",1
+TICKET_0592,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,48,48.0,1,0.292,assign ssl and config nginx dashboard.pari.co.id assign ssl and config nginx dashboard.pari.co.id,0
+TICKET_0593,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,45,45.0,1,0.284,install and setup license win srv mdm db apps install and setup license win srv mdm db apps,0
+TICKET_0594,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,42,42.0,1,0.275,setup and config nginx dashboard pari prod setup and config nginx dashboard pari prod,0
+TICKET_0595,External,Unclassified,ENG_01,2,1.0,0,4.0,479.0,38,38.0,1,0.264,assign ssl and dns dashboard pari prod assign ssl and dns dashboard pari prod,0
+TICKET_0596,External,Unclassified,ENG_01,1,2.0,1,2.0,479.0,41,41.0,1,0.299,create user profile ovpn andhika gannesha create user profile ovpn andhika gannesha,0
+TICKET_0597,External,Unclassified,ENG_01,2,3.0,1,2.0,479.0,34,34.0,1,0.252,setup limit timeout upload apk p2g setup limit timeout upload apk p2g,0
+TICKET_0598,External,Unclassified,ENG_01,2,4.0,1,2.0,479.0,37,37.0,1,0.261,migrate link cbn to fiber service p2g migrate link cbn to fiber service p2g,0
+TICKET_0599,External,Storage,ENG_10,3,1.0,0,2.0,34.0,28,142.0,0,0.727,"implementasi alletra tabanan - delivery perangkat (done) 
+ - unboxing persngkat storage dan rack (done)
+ - checklist perangkat (done)
+ - mounting rack dan smart pdu (done)",1
+TICKET_0600,External,Storage,ENG_10,3,2.0,0,2.0,34.0,28,138.0,0,0.8,"implementasi alletra tabanan - mounting storage (done)
+ - placing rack in the data center (s26 dan t26) (done)
+ - install cable dac dan cable power to storage ( done )",1
+TICKET_0601,External,Storage,ENG_10,3,3.0,0,2.0,34.0,28,151.0,0,0.8,"implementasi alletra tabanan - delivery kabel fo dan utp (done)
+ - power on storage alletra 1-5 (done)
+ - note: terdapat case pdu b1 (a) s26 tidak dapat menampilkan parameter power",1
+TICKET_0602,External,Storage,ENG_10,3,4.0,0,3.0,34.0,28,197.0,0,0.8,"implementasi alletra tabanan - tarikan kabel utp (10/10) (done)
+ - perapihan kabel power (done) 
+ - pengetesan kabel utp management (done) 
+ - aktivasi storage melalui greenlake (done) 
+ - initial config hpe alletra 1-5 (done)",1
+TICKET_0603,External,Storage,ENG_10,3,5.0,1,2.0,34.0,28,177.0,0,0.8,"implementasi alletra tabanan - tarik kabel fo storage - san sejumlah 40 kabel (done)
+ - labeling kabel fo dan utp (done)
+ - test cable fo (done)
+ - plug in cable fo to storage (done) 
+ - collect wwpn (done)",1
+TICKET_0604,External,Storage,ENG_10,3,1.0,0,2.0,34.0,28,723.0,0,0.8,"implementasi alletra tabanan 1. plug in cable fo to san a dan san b (done)
+ 2. pat (pending)
+ - check rack layout (done)
+ - check sn from alletra gui (done)
+ - check health (pending, alletra 4 waiting issue on ctrl b)
+ - check ip address (pending, alletra 4 waiting issue on ctrl b)
+ - check firmware 6.1.2.400 (pending, alletra 4 waiting issue on ctrl b)
+ - check usable and raw space (pending, alletra 4 waiting issue on ctrl b)
+ - check port fc physically and from gui (pending, alletra 4 waiting issue on ctrl b)
+ - check controller physically and from gui (pending, alletra 4 waiting issue on ctrl b)
+ - check capacity disk drive physically and from gui (pending, alletra 4 waiting issue on ctrl b)
+ 3. troubleshoot issue on controller b alletra 4",1
+TICKET_0605,External,Storage,ENG_10,3,2.0,0,1.0,34.0,28,379.0,0,0.653,"implementasi alletra tabanan 1. perapihan cable power (done)
+2. labeling cable power (done)
+3. pat (pending)
+- check health (done)
+- check ip address (done)
+- check firmware 6.1.2.400 (done)
+- check usable and raw space (done)
+- check port fc physically and from gui (done)
+- check controller physically and from gui (done)
+- check capacity disk drive physically and from gui (done)
+- check labeling (done)""
+",1
+TICKET_0606,External,Storage,ENG_10,3,3.0,0,1.0,34.0,28,267.0,0,0.8,"implementasi alletra tabanan 1. add dns 2 on alletra 1-5 (done)
+ 2. change ntp server (done)
+ 3. pat (pending)
+ - check gu (done)
+ 4. sit (pending)
+ - check access local dashboard (done)
+ - check access dscc (done)
+ - check access ifs (done)
+ - check ntp (done)
+ 5. check display pdu on each rack",1
+TICKET_0607,External,Storage,ENG_10,3,3.0,0,2.0,34.0,28,194.0,0,0.8,"implementasi alletra tabanan - upgrade firmware alletra 1-5 to latest (6.1.2.500) done 
+ - pengecekan riser card alletra 4, tidak ditemukan anomali (done) 
+ - create vm for vdbench (done)
+ - create volume for vdbench (done)",1
+TICKET_0608,External,Storage,ENG_10,3,5.0,1,2.0,34.0,28,67.0,0,0.541,"implementasi alletra tabanan - menerima delivery 8 pdu for replacement
+ - pengecekan fisik 8 pdu",1
+TICKET_0609,External,Storage,ENG_10,3,2.0,1,2.0,34.0,28,114.0,0,0.653,"implementasi alletra tabanan 1. pengecekan 8 smart pdu 
+ 2. pergantian 1 smart pdu pada rack s26 (done) 
+ 3. pat power redundancy (pending 2/5)",1
+TICKET_0610,External,Storage,ENG_10,3,3.0,1,2.0,34.0,28,385.0,0,0.727,"implementasi alletra tabanan 1. pengecekan ulang smart pdu dengan fokus pada tegangan residual / ghost voltage ketika switch bank off (menggunakan multitester merk fluke) done
+ 2. pergantian 2 smart pdu pada rack t26 (done)
+ 3. pat - power redundancy pada alletra 3-5 (done 5/5)
+ 4. pat - pengecekan firmware to latest (dikarenakan sudah upgrade firmware to latest 6.1.2.500 untuk membuka fitur snapshot lock) done",1
+TICKET_0611,External,Storage,ENG_10,3,4.0,1,2.0,34.0,28,197.0,0,0.8,"implementasi alletra tabanan 1. add host 30hp to all storage alletra (pending) 
+ ada 5 host pada slot 1 port 2 yang masih belum terbaca wwpn
+ 2. rename format hostname menggunakan alfabet, example alletra-1 to alletra-a (done)",1
+TICKET_0612,External,Storage,ENG_10,3,5.0,1,2.0,34.0,28,212.0,0,0.8,"implementasi alletra tabanan 1. add host 30hp to all storage alletra (done)
+ 2. add host 4psak (done)
+ 3. add host 6 mdm (pending)
+ 5 host belum terdeteksi wwpn
+ 4. melengkapi sticker label barcode itam (done)
+ 5. create 4 vm wpe on site nex",1
+TICKET_0613,External,Server,ENG_10,3,5.0,1,2.0,34.0,49,33.0,0,0.589,create 4 vm for wpe server on nutanix nex cluster create 4 vm on nutanix from prism,0
+TICKET_0614,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,39,39.0,1,0.613,reboot vm server ubuntu22 watchtower db reboot vm server ubuntu22 watchtower db,0
+TICKET_0615,External,Server,ENG_10,2,1.0,0,5.0,34.0,48,48.0,0,0.492,update and upgrade ubuntu22 watchtowerdb cluster update and upgrade ubuntu22 watchtowerdb cluster,1
+TICKET_0616,External,Server,ENG_10,2,1.0,0,5.0,34.0,25,25.0,0,0.426,create vm briview wpe-edc create vm briview wpe-edc,0
+TICKET_0617,External,Unclassified,ENG_01,1,1.0,0,5.0,479.0,39,39.0,1,0.493,create user profile ovpn dpdo pm yesaya create user profile ovpn dpdo pm yesaya,0
+TICKET_0618,External,Unclassified,ENG_01,2,1.0,0,5.0,479.0,47,47.0,1,0.49,change php version 7.4 to 8.1 compro bitcorp.id change php version 7.4 to 8.1 compro bitcorp.id,1
+TICKET_0619,External,Unclassified,ENG_01,1,2.0,0,2.0,479.0,34,34.0,1,0.279,create user profile ovpn team dpdo create user profile ovpn team dpdo,0
+TICKET_0620,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,43,43.0,1,0.278,assign & register email no-reply.bitcorp.id assign & register email no-reply.bitcorp.id,0
+TICKET_0621,External,Unclassified,ENG_01,1,3.0,0,2.0,479.0,41,41.0,1,0.299,create user profile ovpn team sdrd & dpdo create user profile ovpn team sdrd & dpdo,0
+TICKET_0622,External,Unclassified,ENG_01,1,5.0,1,1.0,479.0,34,34.0,1,0.279,create user profile ovpn team dpdo create user profile ovpn team dpdo,0
+TICKET_0623,External,Unclassified,ENG_01,3,2.0,0,2.0,479.0,37,37.0,1,0.527,check monitoring & tshoot fms edc bit check monitoring & tshoot fms edc bit,0
+TICKET_0624,External,Unclassified,ENG_01,2,2.0,0,2.0,479.0,50,50.0,1,0.298,create incident report fms edc high session at bri create incident report fms edc high session at bri,0
+TICKET_0625,External,Unclassified,ENG_01,1,3.0,0,4.0,479.0,47,47.0,1,0.316,"create user profile ovpn a,n intaudit evp jenny create user profile ovpn a,n intaudit evp jenny",0
+TICKET_0626,External,Unclassified,ENG_01,2,3.0,0,4.0,479.0,47,47.0,1,0.436,add and check ssl private bri to server p2g bit add and check ssl private bri to server p2g bit,0
+TICKET_0627,External,Unclassified,ENG_01,2,3.0,0,4.0,479.0,33,33.0,1,0.249,setup and config sftp briview edc setup and config sftp briview edc,0
+TICKET_0628,External,Unclassified,ENG_01,2,4.0,0,6.0,479.0,57,57.0,1,0.518,register dns p2g trx-edc.bitcorp.id and pin to link fiber register dns p2g trx-edc.bitcorp.id and pin to link fiber,0
+TICKET_0629,External,Unclassified,ENG_01,2,4.0,0,6.0,479.0,46,46.0,1,0.487,setup and assign ssl to trx-edc.bitcorp.id p2g setup and assign ssl to trx-edc.bitcorp.id p2g,0
+TICKET_0630,External,Unclassified,ENG_01,2,4.0,0,6.0,479.0,36,36.0,1,0.458,setup and config ftp briview edc aws setup and config ftp briview edc aws,0
+TICKET_0631,External,Unclassified,ENG_01,2,4.0,0,6.0,479.0,37,37.0,1,0.461,register new domain mmsedc.bitcorp.id register new domain mmsedc.bitcorp.id,0
+TICKET_0632,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,35,35.0,1,0.255,assign & register ssl for pm-cm bit assign & register ssl for pm-cm bit,0
+TICKET_0633,External,Unclassified,ENG_01,2,5.0,1,2.0,479.0,41,41.0,1,0.272,register dns briview edc manta.bitcorp.id register dns briview edc manta.bitcorp.id,0
+TICKET_0634,External,Unclassified,ENG_10,3,3.0,0,2.0,34.0,28,42.0,1,0.542,implementasi alletra tabanan add host 109 lenovo on alletra a-e tabanan,1
+TICKET_0635,External,Storage,ENG_10,3,4.0,0,1.0,34.0,28,73.0,0,0.631,"implementasi alletra tabanan create volume pada alletra a-e untuk setiap cluster lenovo, hp, mdm, psak",1
+TICKET_0636,External,Storage,ENG_10,3,1.0,0,2.0,34.0,28,121.0,0,0.727,"implementasi alletra tabanan 1. testing perfpolicy vmware esx 5 (done)
+2. re-create volume pada alletra a-e untuk setiap cluster lenovo, hp, mdm, psak",1
+TICKET_0637,External,Storage,ENG_10,3,3.0,0,4.0,34.0,28,162.0,0,0.8,"implementasi alletra tabanan 1. replace controller b alletra d (done)
+2. enable failover for management (done)
+3. remapping port ke best practice (redundancy) done
+4. re-label fc cable (done)",1
+TICKET_0638,External,Storage,ENG_10,3,4.0,0,6.0,34.0,28,121.0,0,0.927,"implementasi alletra tabanan  uat 
+- test redundant utp management (done)
+- storage alert notification test (pending, menunggu verifikasi email masuk)",1
+TICKET_0639,BRI,Unclassified,ENG_08,2,1.0,0,2.0,4.0,46,75.0,1,0.37,create sop how to isolate from endpoint sensor - testing isolate agent connection form certain port and certain ip address,0
+TICKET_0640,Internal,Unclassified,ENG_01,2,1.0,0,2.0,479.0,46,46.0,1,0.287,regsiter dns briview edc  manta-api.bitcorp.id regsiter dns briview edc  manta-api.bitcorp.id,0
+TICKET_0641,Internal,Unclassified,ENG_01,3,2.0,0,2.0,479.0,36,36.0,1,0.524,tshoot open port access ssh dev pari tshoot open port access ssh dev pari,0
+TICKET_0642,Internal,Unclassified,ENG_01,2,3.0,0,2.0,479.0,48,48.0,1,0.292,check utilisasi dan monitoring vulcan crm bribox check utilisasi dan monitoring vulcan crm bribox,0
+TICKET_0643,Internal,Unclassified,ENG_01,3,4.0,0,7.0,479.0,53,53.0,1,0.774,shutdown briit.co.id hosting and direct to bitcorp.id shutdown briit.co.id hosting and direct to bitcorp.id,1
+TICKET_0644,Internal,Unclassified,ENG_01,1,4.0,0,7.0,479.0,36,36.0,1,0.484,create user profile ovpn intern dpdo create user profile ovpn intern dpdo,0
+TICKET_0645,Internal,Unclassified,ENG_01,2,4.0,0,7.0,479.0,38,38.0,1,0.464,add and allow iam cloudsheel rido dpdo add and allow iam cloudsheel rido dpdo,0
+TICKET_0646,Internal,Unclassified,ENG_01,2,4.0,0,7.0,479.0,37,37.0,1,0.461,check smtp email homespot aws console check smtp email homespot aws console,0
+TICKET_0647,Internal,Unclassified,ENG_01,2,4.0,0,7.0,479.0,42,42.0,1,0.475,create access key ses homespot aws console create access key ses homespot aws console,0
+TICKET_0648,Internal,Unclassified,ENG_01,2,4.0,0,7.0,479.0,42,42.0,1,0.475,grant access iam support ticket mahdi dpdo grant access iam support ticket mahdi dpdo,0
+TICKET_0649,Internal,Unclassified,ENG_01,3,3.0,0,2.0,479.0,54,54.0,1,0.576,tshoot local dns bitcorp.int akses eoffice.bitcorp.int tshoot local dns bitcorp.int akses eoffice.bitcorp.int,1
+TICKET_0650,Internal,Unclassified,ENG_01,1,3.0,0,2.0,479.0,41,41.0,1,0.299,create user profile ovpn a.n astrid audit create user profile ovpn a.n astrid audit,0
+TICKET_0651,BRI,ICD,ENG_05,2,1.0,0,2.0,99.0,74,74.0,0,0.368,munculkan field barcode number pada asset header tidak muncul (semua site) munculkan field barcode number pada asset header tidak muncul (semua site),0
+TICKET_0652,BRI,Britam Mobile,ENG_05,2,2.0,0,2.0,99.0,73,73.0,0,0.365,mendix mobile tidak dapat melakukan pendaftaran aset melalui scan barcode mendix mobile tidak dapat melakukan pendaftaran aset melalui scan barcode,0
+TICKET_0653,BRI,ICD,ENG_05,2,3.0,0,2.0,99.0,83,83.0,0,0.394,penyesuaian field informasi pada asset header berdasarkan jenis aset (site tabanan) penyesuaian field informasi pada asset header berdasarkan jenis aset (site tabanan),0
+TICKET_0654,BRI,ICD,ENG_05,2,4.0,0,7.0,99.0,35,35.0,0,0.455,penyesuaian existing security group penyesuaian existing security group,0
+TICKET_0655,BRI,ICD,ENG_05,2,1.0,0,1.0,99.0,27,27.0,0,0.232,create report all asset icd create report all asset icd,0
+TICKET_0656,BRI,ICD,ENG_05,2,4.0,0,6.0,99.0,26,26.0,0,0.429,create report vm asset icd create report vm asset icd,0
+TICKET_0657,BRI,ICD,ENG_05,2,5.0,1,2.0,99.0,62,112.0,0,0.46,ganti classification item yang masih pakai classification lama ganti classification item pakai classification yang baru karna ada beberapa item masih pakai classification lama,1
+TICKET_0658,BRI,ICD,ENG_05,2,5.0,1,2.0,99.0,26,26.0,0,0.229,remove classification lama remove classification lama,0
+TICKET_0659,Internal,Unclassified,ENG_01,3,1.0,1,1.0,479.0,46,46.0,1,0.553,test dan check load benchmark tms download edc test dan check load benchmark tms download edc,1
+TICKET_0660,Internal,Unclassified,ENG_01,1,4.0,0,1.0,479.0,40,40.0,1,0.296,create user profile ovpn evp legal ambar create user profile ovpn evp legal ambar,0
+TICKET_0661,Internal,Unclassified,ENG_01,3,5.0,1,2.0,479.0,46,46.0,1,0.553,tshoot login ticketing bitcorp.id team pms lan tshoot login ticketing bitcorp.id team pms lan,1
+TICKET_0662,Internal,Unclassified,ENG_01,2,5.0,1,2.0,479.0,49,49.0,1,0.295,create and register dns reportdpension.bitcorp.id create and register dns reportdpension.bitcorp.id,0
+TICKET_0663,Internal,Unclassified,ENG_01,1,1.0,0,2.0,479.0,32,32.0,1,0.273,create user profile ovpn sdrd pm create user profile ovpn sdrd pm,0
+TICKET_0664,Internal,Unclassified,ENG_01,2,1.0,0,2.0,479.0,45,45.0,1,0.284,tarik data support ticket intotal 2023 - 2024 tarik data support ticket intotal 2023 - 2024,0
+TICKET_0665,Internal,Unclassified,ENG_01,2,3.0,0,1.0,479.0,32,32.0,1,0.246,create agent support bitcorp.id  create agent support bitcorp.id ,0
+TICKET_0666,Internal,Unclassified,ENG_01,2,1.0,0,2.0,479.0,33,33.0,1,0.396,create user profike ovpn pak lala create user profike ovpn pak lala,0
+TICKET_0667,Internal,Unclassified,ENG_01,2,1.0,0,2.0,479.0,44,44.0,1,0.281,grant access iam access connect ec2 aws rido grant access iam access connect ec2 aws rido,0
+TICKET_0668,Internal,Unclassified,ENG_01,1,2.0,0,1.0,479.0,35,35.0,1,0.282,create user profile ovpn aws rizkie create user profile ovpn aws rizkie,0
+TICKET_0669,Internal,Unclassified,ENG_01,3,3.0,0,3.0,479.0,34,34.0,1,0.519,delete object apk tms edc download delete object apk tms edc download,0
+TICKET_0670,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,30,30.0,1,0.24,update dns p2g edc to link cbn update dns p2g edc to link cbn,0
+TICKET_0671,Internal,Unclassified,ENG_01,2,3.0,0,3.0,479.0,33,33.0,1,0.249,update monitoring status link p2g update monitoring status link p2g,0
+TICKET_0672,Internal,Unclassified,ENG_01,2,4.0,0,1.0,479.0,37,37.0,1,0.261,register dns briview prod & stag edc  register dns briview prod & stag edc ,0
+TICKET_0673,Internal,Unclassified,ENG_01,2,1.0,0,1.0,479.0,44,44.0,1,0.281,create user agent lead team support osticket create user agent lead team support osticket,0
+TICKET_0674,Internal,Unclassified,ENG_01,2,2.0,0,2.0,479.0,44,44.0,1,0.281,open port 3018 3019 dev and config nginx dev open port 3018 3019 dev and config nginx dev,0
+TICKET_0675,Internal,Unclassified,ENG_01,2,2.0,0,2.0,479.0,34,34.0,1,0.399,check network and dns trx-edc p2g  check network and dns trx-edc p2g ,0
+TICKET_0676,Internal,Unclassified,ENG_01,2,3.0,0,1.0,479.0,50,50.0,1,0.298,setup and config nginx dev pari ssl 3018 dan 3019  setup and config nginx dev pari ssl 3018 dan 3019 ,0
+TICKET_0677,Internal,Unclassified,ENG_01,2,4.0,0,1.0,479.0,46,46.0,1,0.287,register and add to status p2g edc nfc service register and add to status p2g edc nfc service,0
+TICKET_0678,Internal,Unclassified,ENG_01,1,5.0,1,3.0,479.0,43,43.0,1,0.305,create user profile ovpn a.n firman tms edc create user profile ovpn a.n firman tms edc,0
+TICKET_0679,Internal,Unclassified,ENG_01,2,5.0,1,3.0,479.0,46,46.0,1,0.287,create user agent osticket a.n ladina c annisa create user agent osticket a.n ladina c annisa,0
+TICKET_0680,Internal,Unclassified,ENG_01,2,5.0,1,3.0,479.0,44,44.0,1,0.281,check and setup smtp bitcorp.id for app pmcm check and setup smtp bitcorp.id for app pmcm,0
+TICKET_0681,Internal,Unclassified,ENG_01,2,1.0,1,2.0,479.0,39,39.0,1,0.266,check and setup service nfc p2g dev cbn check and setup service nfc p2g dev cbn,0
+TICKET_0682,Internal,Unclassified,ENG_01,2,1.0,1,2.0,479.0,49,49.0,1,0.295,setup and recheck malicious dns port 53 recursion setup and recheck malicious dns port 53 recursion,0
